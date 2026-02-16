@@ -143,7 +143,9 @@ Branch names should be:
 
 Example:
 
+```
 feature/add-login
+```
 
 ---
 
@@ -233,13 +235,13 @@ Even simple tests help catch bugs.
 
 Examples:
 
-Python:
+- Python:
 
 ```
 assert calculate_total([1,2,3]) == 6
 ```
 
-JavaScript:
+- JavaScript:
 
 ```
 test('adds two numbers', () => {
