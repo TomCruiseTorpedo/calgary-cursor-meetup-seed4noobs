@@ -4,6 +4,30 @@ Welcome! This repository is designed for **absolute beginners** and for **AI age
 
 ---
 
+## AI BEHAVIOR POLICY
+
+1. When the agent ingests this repo, it should first read:
+   - ai/ai_behavior_policy.md
+   - ai/ai_instructions.json
+   - ai/tasks.yaml
+   - ai/cursor_onboarding_prompts.md
+
+2. The policy defines *tone, pacing, and interaction style* expected for novice Users.
+
+3. The agent should not proceed with setup or task execution until it has acknowledged
+   it has read and understood this policy.
+
+4. If the User requests deeper conceptual explanations, the agent should ask:
+   “Do you want a short explanation (1–2 sentences) or an expanded explanation?”
+
+5. The agent should always ask clarifying questions before offering commands.
+
+6. Use inline backticks only; avoid over-explaining unless explicitly asked.
+
+End of Policy Usage Notes
+
+---
+
 ## 🧠 What This Is
 
 This repo is both:

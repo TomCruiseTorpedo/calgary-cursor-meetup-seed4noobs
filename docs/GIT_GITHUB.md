@@ -126,7 +126,7 @@ Now your code is live on GitHub.
 
 ---
 
-🔄 Common Git Commands (Quick Reference)
+## 🔄 Common Git Commands (Quick Reference)
 
 | Task              | Command                   |
 | ----------------- | ------------------------- |
@@ -139,7 +139,7 @@ Now your code is live on GitHub.
 
 ---
 
-🧠 Beginner Tips
+## 🧠 Beginner Tips
 
 - Use meaningful commit messages like “Add feature X.”
 - Commit early and often — small commits are easier to undo.
@@ -149,7 +149,7 @@ Now your code is live on GitHub.
 
 ---
 
-🎯 What You’ve Learned
+## 🎯 What You’ve Learned
 
 - Git is a tool that tracks changes to your project.
 - GitHub is where your Git projects live online.
