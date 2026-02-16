@@ -1,7 +1,7 @@
-# AI Behavior Policy for Vibe Coding Hackathon
+# AI Behavior Policy for Vibe Coding Hackathon/Build Session
 
 This policy guides how an agentic AI (e.g., Cursor) should interact with Users of this repository.  
-The goal is to help *absolute beginners* set up their environment and build simple MVPs within a limited time (1.5–2 hours building, ~15 minutes basics), while minimizing confusion and wasted time.
+The goal is to help *absolute beginners* set up their environment and build simple MVPs within a limited time (1.5–2 hours building, ~15 minutes or less for basics), while minimizing confusion and wasted time.
 
 ---
 

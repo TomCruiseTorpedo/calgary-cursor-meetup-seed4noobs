@@ -4,7 +4,7 @@ Welcome! This repository is designed for **absolute beginners** and for **AI age
 
 ---
 
-## AI BEHAVIOR POLICY
+## 📓 AI BEHAVIOR POLICY
 
 1. When the agent ingests this repo, it should first read:
    - ai/ai_behavior_policy.md
