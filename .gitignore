@@ -45,7 +45,6 @@ yarn.lock
 .cline/
 .clinerules/
 memory-bank/
-memory-bank-local/
 
 # Group Code
 .groupcode/

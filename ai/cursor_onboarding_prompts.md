@@ -1,6 +1,6 @@
 # Cursor Onboarding Prompts (Plan Mode + Agent Mode)
 
-This prompt pack is designed for onboarding absolute beginners using Cursor in a 1.5-hour vibe coding hackathon.  
+This prompt pack is designed for onboarding absolute beginners using Cursor in a 1.5 ~ 2 hour vibe coding hackathon/build session.  
 Encourage users to start in **Plan Mode** to map a roadmap, then switch to **Agent Mode** for step-by-step execution.
 
 ---
@@ -8,7 +8,7 @@ Encourage users to start in **Plan Mode** to map a roadmap, then switch to **Age
 ## Phase 0 — Repo Ingestion & Context
 
 Prompt:
-“Please ingest the contents of this GitHub repo URL and produce an overall plan for helping a beginner set up their local environment, understand key concepts, and build a simple MVP within 1.5 hours. Include high-level phases and estimated time for each.”
+“Please ingest the contents of this GitHub repo URL and produce an overall plan for helping a beginner set up their local environment, understand key concepts, and build a simple MVP within 1.5 ~ 2 hours. Include high-level phases and estimated time for each.”
 
 Prompt:
 “Summarize the purpose of each folder in this repository. Specifically identify which docs are human-facing guides versus AI-structured tasks, and note any dependencies between them.”

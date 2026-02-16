@@ -67,15 +67,16 @@ Cursor (or another agentic coding harness) can read this repo via its URL. The s
 
 Tell Cursor:
 
-- What you want to build
-- What you don’t want
+- What you do want to build
+- What you don’t want to build
 - How you want it to behave
 
 Example prompt:
 
     Build a simple todo list app with a text input, add button, and list output.
     I want it in JavaScript + HTML/CSS.
-    I want it to run locally first.
+    I want it to run locally first. 
+    I don't want to deploy to Vercel right away.
 
 ### 🧠 Break It Down
 

@@ -2,7 +2,7 @@
 
 ## Ingest Repo
 
-> “Please ingest the contents of this GitHub repo (URL) and explain your plan for helping me set up my environment step by step for a vibe coding hackathon. I have no coding experience.”
+> “Please ingest the contents of this GitHub repo (URL) and explain your plan for helping me set up my environment step by step for a vibe coding hackathon/build session. I have no coding experience.”
 
 ---
 
