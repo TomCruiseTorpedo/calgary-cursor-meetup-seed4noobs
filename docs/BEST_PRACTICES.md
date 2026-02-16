@@ -54,7 +54,7 @@ Write comments only when necessary to explain *why* something is done, not *what
 
 Use triple-quoted docstrings for functions and modules:
 
-"""Calculate the total price including tax."""
+    """Calculate the total price including tax."""
 
 ### JavaScript/TypeScript Comments
 
@@ -62,10 +62,15 @@ Use `//` for single-line comments and `/* … */` for multi-line when needed.
 
 Example:
 
+```
 // Adds two numbers  
+```
+
+```
 /*  
   This function is used in the main checkout flow  
 */
+```
 
 ---
 
