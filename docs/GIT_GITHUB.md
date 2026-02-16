@@ -128,14 +128,14 @@ Now your code is live on GitHub.
 
 🔄 Common Git Commands (Quick Reference)
 
-| Task              | Command                   |                |
-| ----------------- | ------------------------- | -------------- |
-| Check status      | `git status`              |                |
-| Stage all changes | `git add .`               |                |
-| Commit            | `git commit -m "message"` |                |
-| Push to GitHub    | `git push`                |                |
-| Pull from GitHub  | `git pull`                |                |
-| Clone a repo      | `git clone <url>`         | ([Git SCM][1]) |
+| Task              | Command                   |
+| ----------------- | ------------------------- |
+| Check status      | `git status`              |
+| Stage all changes | `git add .`               |
+| Commit            | `git commit -m "message"` |
+| Push to GitHub    | `git push`                |
+| Pull from GitHub  | `git pull`                |
+| Clone a repo      | `git clone <url>`         |
 
 ---
 

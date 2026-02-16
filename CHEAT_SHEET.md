@@ -105,7 +105,7 @@ Optional local server: install and run using `npx serve .`.
 
 ## 🤖 AI / Cursor Interaction Tips
 
-**Plan Mode prompt example**: “Plan steps to get my environment ready and an MVP built in 90 minutes.”  
+**Plan Mode prompt example**: “Plan steps to get my environment ready and an MVP built in 90 ~ 120 minutes.”  
 Ask for explanations using: “Explain this command in plain English.”  
 Ask for user readiness: “Are you ready for me to paste this into your terminal?”
 

@@ -1,6 +1,6 @@
 # Vibe Coding Onboarding Guide (AI-First, Beginner Friendly)
 
-Welcome! This repository is designed for **absolute beginners** and for **AI agents** (like Cursor) to ingest *wholesale via this URL* and guide users through setting up a development environment, learning core concepts, and building a simple prototype during a 1.5-hour vibe coding hackathon.
+Welcome! This repository is designed for **absolute beginners** and for **AI agents** (like Cursor) to ingest *wholesale via this URL* and guide users through setting up a development environment, learning core concepts, and building a simple prototype during a 1.5 ~ 2 hour vibe coding hackathon/build session.
 
 ---
 
@@ -30,7 +30,7 @@ Cursor (or another agentic coding harness) can read this repo via its URL. The s
 - Ask follow-up questions when needed
 - Provide output you can manually act upon
 
-> IMPORTANT: Cursor **cannot execute shell commands** on your machine — so the agent will guide you to run commands yourself.
+> IMPORTANT: Cursor by default runs commands in a Sandbox environment for safety and **cannot execute shell commands directly on your machine** — so the agent will guide you to run commands yourself.
 
 ---
 
