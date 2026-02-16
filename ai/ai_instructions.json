@@ -1,0 +1,45 @@
+{
+  "project_name": "Vibe Coding Hackathon Onboarding",
+  "description": "AI-friendly structured roadmap for onboarding noobs to coding basics, local setup, and first prototype.",
+  "audience": [
+    "cursor_agent",
+    "beginner_humans"
+  ],
+  "phases": [
+    {
+      "id": "phase_setup",
+      "title": "Environment Setup",
+      "description": "Guide the User to install OS tools, terminal basics, Git/GitHub, Python, and Node/TS."
+    },
+    {
+      "id": "phase_best_practices",
+      "title": "Teach Best Practices",
+      "description": "Introduce linting, typing, structure, and version control habits."
+    },
+    {
+      "id": "phase_build_app",
+      "title": "Prototype Build",
+      "description": "Use natural language prompts to scaffold and incrementally build a simple web app locally."
+    },
+    {
+      "id": "phase_deploy",
+      "title": "Deploy App",
+      "description": "Guide the User to optionally deploy via Vercel and verify deployment."
+    }
+  ],
+  "success_metrics": {
+    "setup_success": [
+      "terminal operational",
+      "python functional with venv",
+      "node & npm functional",
+      "GitHub repo created"
+    ],
+    "build_success": [
+      "local dev server runs without errors",
+      "first prototype UI/widget functional"
+    ],
+    "deployment_success": [
+      "app reachable in browser via Vercel or equivalent"
+    ]
+  }
+}

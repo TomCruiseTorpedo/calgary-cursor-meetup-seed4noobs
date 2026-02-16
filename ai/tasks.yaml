@@ -1,0 +1,75 @@
+tasks:
+  - id: 01_terminal
+    title: Terminal Basics
+    description: Introduce Terminal/PowerShell usage, navigation, and running commands.
+    docs: docs/TERMINAL_BASICS.md
+    success_criteria:
+      - "User can open terminal without confusion"
+      - "User can run a basic command and see output"
+    tags:
+      - setup
+      - human_onboarding
+
+  - id: 02_git_github
+    title: Git & GitHub Onboarding
+    description: Teach Git installation, initialization, committing, and pushing to GitHub.
+    docs: docs/GIT_GITHUB.md
+    dependencies: [01_terminal]
+    success_criteria:
+      - "User has a GitHub repo with at least one commit"
+      - "User can push/pull without errors"
+    tags:
+      - setup
+      - version_control
+
+  - id: 03_python_setup
+    title: Python Install & venv
+    description: Install Python, create and activate a virtual environment, install basic packages.
+    docs: docs/PYTHON_SETUP.md
+    dependencies: [01_terminal]
+    success_criteria:
+      - "Python responds to python --version"
+      - "User can create and activate venv"
+    tags:
+      - setup
+      - python
+
+  - id: 04_node_nvm_setup
+    title: Node & nvm Setup
+    description: Install nvm, Node.js, initialize npm project.
+    docs: docs/JS_TS_SETUP.md
+    dependencies: [01_terminal]
+    success_criteria:
+      - "Node and npm versions reported"
+      - "Project initialized with package.json"
+    tags:
+      - setup
+      - js_ts
+
+  - id: 05_best_practices
+    title: Development Best Practices
+    description: Teach naming, typing, linting, structures, and commit discipline.
+    docs: docs/BEST_PRACTICES.md
+    dependencies: [02_git_github, 03_python_setup, 04_node_nvm_setup]
+    success_criteria:
+      - "User understands and can list best practices"
+    tags:
+      - practices
+
+  - id: 06_build_mvp
+    title: Build First Prototype
+    description: Use NS prompts to scaffold the first usable UI component or endpoint.
+    dependencies: [05_best_practices]
+    success_criteria:
+      - "Project runs locally with the new feature"
+    tags:
+      - build
+
+  - id: 07_deploy
+    title: Deployment
+    description: Guide the User to deploy the app (e.g., Vercel) and verify its live status.
+    dependencies: [06_build_mvp]
+    success_criteria:
+      - "Deployed URL loads successfully"
+    tags:
+      - deploy

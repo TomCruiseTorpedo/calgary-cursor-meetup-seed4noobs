@@ -1,0 +1,116 @@
+# Vibe Coding Onboarding Guide (AI-First, Beginner Friendly)
+
+Welcome! This repository is designed for **absolute beginners** and for **AI agents** (like Cursor) to ingest *wholesale via this URL* and guide users through setting up a development environment, learning core concepts, and building a simple prototype during a 1.5-hour vibe coding hackathon.
+
+---
+
+## 🧠 What This Is
+
+This repo is both:
+
+1. **Human-friendly onboarding documentation**
+2. **AI-friendly structured instructions** (for agents to parse, interpret, and act on)
+
+The goal is to help *people with no coding experience* get up and running with:
+
+- Terminals/command line basics
+- Git & GitHub
+- Python and JavaScript/TypeScript workflows
+- Running code locally
+- Deploying a simple web app (e.g., Vercel)
+
+---
+
+## ⚡ AI First: How This Works with Cursor
+
+Cursor (or another agentic coding harness) can read this repo via its URL. The structured instructions here are meant for AI agents to:
+
+- Understand your current environment
+- Lay out step-by-step setup instructions
+- Ask follow-up questions when needed
+- Provide output you can manually act upon
+
+> IMPORTANT: Cursor **cannot execute shell commands** on your machine — so the agent will guide you to run commands yourself.
+
+---
+
+## 📍 How to Use This Repo
+
+1. **Open Cursor IDE** (or chosen agent interface)
+2. Paste the URL of this repo into the Cursor chat
+3. Ask Cursor to: Ingest this repo and walk me through setting up my environment step by step.
+4. Follow the steps it outputs — *copy/paste commands into your Terminal when instructed.*
+
+---
+
+## 🚀 Hackathon Workflow (High Level)
+
+1. **Scan the QR code** you were handed to claim Cursor credits
+2. **Create / sign into Cursor**
+3. **Activate Pro subscription**
+
+- You *must* add a credit card
+- This activates the plan so the credits can be applied
+- *You will not be charged immediately*
+
+1. **Use Cursor + this repo** to prepare:
+
+- Install tools
+- Learn basics
+- Build a mini prototype
+
+---
+
+## 📌 Tips for Success
+
+### 🧩 Be Clear With Goals
+
+Tell Cursor:
+
+- What you want to build
+- What you don’t want
+- How you want it to behave
+
+Example prompt:
+
+    Build a simple todo list app with a text input, add button, and list output.
+    I want it in JavaScript + HTML/CSS.
+    I want it to run locally first.
+
+### 🧠 Break It Down
+
+Divide work into:
+
+- Setup
+- UI
+- Logic
+- Testing
+- Deployment
+
+Cursor can help you define these subtasks.
+
+---
+
+## 💡 Token Strategy (for AI Agents)
+
+Cursor may let you choose between models (e.g., cheaper vs. powerful). Use:
+
+- **Cheap tokens** for routine tasks (setup, basic scaffolding, explanations)
+- **Powerful models** for complex logic or planning
+
+---
+
+## 📘 What’s Next in This Repo
+
+- `docs/` — Human-focused walkthroughs
+- `ai/` — Structured instructions for AI ingestion
+- `templates/` — Python + JS starter projects
+- `configs/` — Linting & best practices configs
+
+---
+
+## ❤️ Thank You
+
+This repo was built to help *complete beginners* get hands-on with coding using the power of AI. If anything is unclear — ask your AI tool or the Volunteers!
+
+Happy building! 🎉
