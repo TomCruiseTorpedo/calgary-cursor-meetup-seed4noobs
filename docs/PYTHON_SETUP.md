@@ -6,6 +6,18 @@ This guide shows beginners how to install Python, create and activate a virtual 
 
 ---
 
+## ⚠️ Before You Begin — First Time on This Computer?
+
+**If this is a brand new or freshly wiped computer with nothing installed, start here first:**
+
+- 🖥️ **New to everything?** → Start with [SETUP_FROM_SCRATCH.md](SETUP_FROM_SCRATCH.md)
+- 🍎 **On a Mac?** → Install Homebrew first: [HOMEBREW_INSTALL.md](HOMEBREW_INSTALL.md)
+- 🪟 **On Windows?** → Follow [WINDOWS_SETUP.md](WINDOWS_SETUP.md)
+
+Once you've installed the basics (Git, terminal, etc.), come back here to set up Python specifically.
+
+---
+
 ## 1) Check if Python is Already Installed
 
 Open your terminal or PowerShell and run:

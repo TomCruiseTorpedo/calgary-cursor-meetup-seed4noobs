@@ -1,12 +1,26 @@
-# Vibe Coding Onboarding Guide (AI-First, Beginner Friendly)
+# Vibe Coding Onboarding Guide (Agentic-First, Beginner Friendly)
 
-Welcome! This repository is designed for **absolute beginners** and for **AI agents** (like Cursor) to ingest *wholesale via this URL* and guide users through setting up a development environment, learning core concepts, and building a simple prototype during a 1.5 ~ 2 hour vibe coding hackathon/build session.
+Welcome! This repository is designed for **absolute beginners** and for **agentic coding harnesses** (like Cursor, VS Code with Copilot, and Antigravity) to ingest *wholesale via this URL* and guide users through setting up a development environment, learning core concepts, and building a simple prototype during a 1.5 ~ 2 hour vibe coding session.
 
 ---
 
-## 📓 AI BEHAVIOR POLICY
+## 🆕 Brand New to Coding? Never Installed Dev Tools Before? Start Here First!
 
-1. When the agent ingests this repo, it should first read:
+> **Your computer is a fresh Mac, Windows PC, or Linux machine with nothing installed?**
+> No Node, no Python, no Git, no Homebrew — literally nothing?
+>
+> **→ Start with [`docs/SETUP_FROM_SCRATCH.md`](docs/SETUP_FROM_SCRATCH.md)**
+>
+> It walks you through installing every single tool you need, step by step, in plain language. No experience required.
+>
+> - 🍎 **Mac users:** Also see [`docs/HOMEBREW_INSTALL.md`](docs/HOMEBREW_INSTALL.md)
+> - 🪟 **Windows users:** Also see [`docs/WINDOWS_SETUP.md`](docs/WINDOWS_SETUP.md)
+
+---
+
+## 📓 AGENTIC CODING HARNESS BEHAVIOUR POLICY
+
+1. When the harness ingests this repo, it should first read:
    - ai/ai_behavior_policy.md
    - ai/ai_instructions.json
    - ai/tasks.yaml
@@ -14,13 +28,13 @@ Welcome! This repository is designed for **absolute beginners** and for **AI age
 
 2. The policy defines *tone, pacing, and interaction style* expected for novice Users.
 
-3. The agent should not proceed with setup or task execution until it has acknowledged
+3. The harness should not proceed with setup or task execution until it has acknowledged
    it has read and understood this policy.
 
-4. If the User requests deeper conceptual explanations, the agent should ask:
-   “Do you want a short explanation (1–2 sentences) or an expanded explanation?”
+4. If the User requests deeper conceptual explanations, the harness should ask:
+   "Do you want a short explanation (1–2 sentences) or an expanded explanation?"
 
-5. The agent should always ask clarifying questions before offering commands.
+5. The harness should always ask clarifying questions before offering commands.
 
 6. Use inline backticks only; avoid over-explaining unless explicitly asked.
 
@@ -33,7 +47,7 @@ End of Policy Usage Notes
 This repo is both:
 
 1. **Human-friendly onboarding documentation**
-2. **AI-friendly structured instructions** (for agents to parse, interpret, and act on)
+2. **Harness-friendly structured instructions** (for agentic coding harnesses to parse, interpret, and act on)
 
 The goal is to help *people with no coding experience* get up and running with:
 
@@ -45,24 +59,24 @@ The goal is to help *people with no coding experience* get up and running with:
 
 ---
 
-## ⚡ AI First: How This Works with Cursor
+## ⚡ Agentic First: How This Works with Cursor
 
-Cursor (or another agentic coding harness) can read this repo via its URL. The structured instructions here are meant for AI agents to:
+Any agentic coding harness (Cursor, VS Code with Copilot, Antigravity, etc.) can read this repo via its URL. The structured instructions here are meant for agentic coding harnesses to:
 
 - Understand your current environment
 - Lay out step-by-step setup instructions
 - Ask follow-up questions when needed
 - Provide output you can manually act upon
 
-> IMPORTANT: Cursor by default runs commands in a Sandbox environment for safety and **cannot execute shell commands directly on your machine** — so the agent will guide you to run commands yourself.
+> IMPORTANT: Cursor by default runs commands in a Sandbox environment for safety and **cannot execute shell commands directly on your machine** — so the harness will guide you to run commands yourself.
 
 ---
 
 ## 📍 How to Use This Repo
 
-1. **Open Cursor IDE** (or chosen agent interface)
-2. Paste the URL of this repo into the Cursor chat
-3. Ask Cursor to: Ingest this repo and walk me through setting up my environment step by step.
+1. **Open Cursor IDE** (or your chosen agentic coding harness)
+2. Paste the URL of this repo into the chat
+3. Ask it to: Ingest this repo and walk me through setting up my environment step by step.
 4. Follow the steps it outputs — *copy/paste commands into your Terminal when instructed.*
 
 ---
@@ -116,9 +130,9 @@ Cursor can help you define these subtasks.
 
 ---
 
-## 💡 Token Strategy (for AI Agents)
+## 💡 Token Strategy (for Agentic Coding Harnesses)
 
-Cursor may let you choose between models (e.g., cheaper vs. powerful). Use:
+Your agentic coding harness (e.g., Cursor) may let you choose between models (e.g., cheaper vs. powerful). Use:
 
 - **Cheap tokens** for routine tasks (setup, basic scaffolding, explanations)
 - **Powerful models** for complex logic or planning
@@ -128,7 +142,7 @@ Cursor may let you choose between models (e.g., cheaper vs. powerful). Use:
 ## 📘 What’s Next in This Repo
 
 - `docs/` — Human-focused walkthroughs
-- `ai/` — Structured instructions for AI ingestion
+- `ai/` — Structured instructions for agentic coding harness ingestion
 - `templates/` — Python + JS starter projects
 - `configs/` — Linting & best practices configs
 
@@ -136,6 +150,6 @@ Cursor may let you choose between models (e.g., cheaper vs. powerful). Use:
 
 ## ❤️ Thank You
 
-This repo was built to help *complete beginners* get hands-on with coding using the power of AI. If anything is unclear — ask your AI tool or the Volunteers!
+This repo was built to help *complete beginners* get hands-on with vibecoding using the power of agentic engineering. If anything is unclear — ask your agentic coding harness or the Volunteers!
 
 Happy building! 🎉

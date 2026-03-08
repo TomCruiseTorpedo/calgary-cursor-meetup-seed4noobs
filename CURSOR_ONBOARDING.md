@@ -4,6 +4,20 @@ This is a clear guide for beginners to activate Cursor and get started.
 
 ---
 
+## 🖥️ Step 0 — Set Up Your Computer First (New Users)
+
+**If you have never coded before, or this is a fresh/new computer:**
+
+Before you can use Cursor, you need a few basic tools installed. Start here:
+
+- 🚀 **[SETUP_FROM_SCRATCH.md](docs/SETUP_FROM_SCRATCH.md)** — Complete beginner guide (Mac + Windows + Linux)
+- 🍎 **Mac users:** [HOMEBREW_INSTALL.md](docs/HOMEBREW_INSTALL.md) — Install Homebrew first
+- 🪟 **Windows users:** [WINDOWS_SETUP.md](docs/WINDOWS_SETUP.md) — Windows-specific setup
+
+Once your computer is set up, come back here to activate Cursor.
+
+---
+
 ## 🤳 Step 1 — Scan the QR Code
 
 Use your phone to scan the QR code provided on paper.

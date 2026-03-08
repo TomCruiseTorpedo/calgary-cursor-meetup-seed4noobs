@@ -1,8 +1,8 @@
 {
   "project_name": "Vibe Coding Hackathon Onboarding",
-  "description": "AI-friendly structured roadmap for onboarding noobs to coding basics, local setup, and first prototype.",
+  "description": "Harness-friendly structured roadmap for onboarding beginners to coding basics, local setup, and first prototype. Intended for agentic coding harnesses (Cursor, VS Code with Copilot, Antigravity, etc.) and beginner humans alike.",
   "audience": [
-    "cursor_agent",
+    "agentic_coding_harness",
     "beginner_humans"
   ],
   "phases": [

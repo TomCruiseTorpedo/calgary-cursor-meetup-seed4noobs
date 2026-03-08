@@ -6,6 +6,18 @@ This guide walks beginners through installing Node.js, using nvm, initializing a
 
 ---
 
+## ⚠️ Before You Begin — First Time on This Computer?
+
+**If this is a brand new or freshly wiped computer with nothing installed, start here first:**
+
+- 🖥️ **New to everything?** → Start with [SETUP_FROM_SCRATCH.md](SETUP_FROM_SCRATCH.md)
+- 🍎 **On a Mac?** → Install Homebrew first: [HOMEBREW_INSTALL.md](HOMEBREW_INSTALL.md)
+- 🪟 **On Windows?** → Follow [WINDOWS_SETUP.md](WINDOWS_SETUP.md)
+
+You'll need a working terminal and Git before continuing with this guide.
+
+---
+
 ## 1) What You Need
 
 You will install:
