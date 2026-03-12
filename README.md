@@ -21,7 +21,7 @@ Welcome! This repository is designed for **absolute beginners** and for **agenti
 ## 📓 AGENTIC CODING HARNESS BEHAVIOUR POLICY
 
 1. When the harness ingests this repo, it should first read:
-   - ai/ai_behavior_policy.md
+   - ai/ai_behaviour_policy.md
    - ai/ai_instructions.json
    - ai/tasks.yaml
    - ai/cursor_onboarding_prompts.md

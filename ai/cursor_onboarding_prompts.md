@@ -77,7 +77,7 @@ Prompt:
 ## Phase 4 — MVP Prototyping
 
 Prompt:
-“Help the user define a simple MVP (e.g., todo list app) by breaking it into subtasks: UI, behavior, and deployable endpoint. List clear evaluation criteria for each subtask.”
+“Help the user define a simple MVP (e.g., todo list app) by breaking it into subtasks: UI, behaviour, and deployable endpoint. List clear evaluation criteria for each subtask.”
 
 Prompt:
 “Now generate skeleton code for the first subtask (e.g., HTML UI with a text input and button), and explain each part.”

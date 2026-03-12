@@ -66,3 +66,6 @@ coverage/
 
 # OS
 Thumbs.db
+
+# Workspace files
+calgary-cursor-meetup-seed4noobs.code-workspace
