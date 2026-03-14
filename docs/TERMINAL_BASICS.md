@@ -9,8 +9,8 @@ By the end, you’ll understand basic commands, how to run them, and optional to
 
 A **terminal** is a text-based interface where you type instructions instead of clicking buttons.
 
-- On **Windows**, you’ll use **PowerShell**.
-- On **macOS**, you’ll use **Zsh** (with optional upgrades).
+- On **macOS**, you’ll use **Zsh** (the "Brain") inside **Terminal** (the "Container").
+- On **Windows**, you’ll use **PowerShell** (the "Brain") inside **Windows Terminal** (the "Container").
 - Most development tools you’ll install run here.
 
 ---
@@ -42,7 +42,7 @@ You’ll see something like this:
 
 ### Windows (PowerShell)
 
-1. Press `Win` key
+1. Press the **Windows key (⊞)**
 2. Type `PowerShell` → Enter
 
 You’ll see something like:
@@ -51,10 +51,33 @@ You’ll see something like:
 
 ---
 
+## Parallel Comparison Summary
+
+The relationship between the Window (Terminal) and the Shell (Brain) is identical on modern macOS and Windows 11.
+
+| Feature | macOS (Default) | Windows 11 (Default) | Windows 10 (Default) |
+|---------|-----------------|----------------------|----------------------|
+| **The "Container"** | Terminal.app (Modern, tabs) | Windows Terminal (Modern, tabs) | Console Host (Basic, no tabs) |
+| **The "Brain"** | Zsh | PowerShell | PowerShell or CMD |
+| **Rendering** | GPU (Fast, smooth text) | GPU (Fast, smooth text) | CPU (Slower text) |
+| **Customization** | High (Themes, Plugins) | High (JSON, Shaders) | Very limited |
+
+---
+
+## The "PowerShell Advantage"
+
+PowerShell is the modern command engine for Windows. It is more powerful than the old Command Prompt (CMD) for several reasons:
+
+- **Object-Oriented**: It passes actual data (objects) between commands instead of just "dumb text."
+- **Modern Logic**: It uses a clear Verb-Noun system (e.g., `Get-Service`) that is easier to learn than cryptic codes.
+- **Cross-Platform**: PowerShell Core now runs on Mac and Linux, making it a universal skill.
+
+---
+
 ## Basic Commands (Unified)
 
-| Task | macOS | Windows (PowerShell) |
-|------|-------|-----------------------|
+| Task | macOS (Zsh) | Windows (PowerShell) |
+|------|-------------|-----------------------|
 | Print working directory | `pwd` | `pwd` |
 | List files/folders | `ls` | `ls` |
 | Change directory | `cd foldername` | `cd foldername` |
@@ -111,8 +134,8 @@ This gives you:
 ## Quick Summary
 
 - Terminal lets you run text commands.
-- Use **PowerShell** on Windows.
 - Use **Zsh (+ Oh My Zsh)** on macOS.
+- Use **PowerShell (+ Windows Terminal)** on Windows.
 - Commands are mostly the same across platforms.
 - Ghostty is a nice optional terminal to explore later.
 

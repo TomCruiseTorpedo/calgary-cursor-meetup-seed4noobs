@@ -13,64 +13,63 @@ This walks you through setting up a developer environment on Windows 10 or Windo
 3. Python (for Python projects)
 4. Cursor (the AI coding tool)
 
-**Note:** PowerShell and Windows Terminal are already included with Windows (see details below).
+**Note:** PowerShell (the "Brain") and Windows Terminal (the "Container") are already included with Windows (see details below).
 
 ---
 
-## 🖥️ Step 1: Open PowerShell
+## 🖥️ Step 1: Understanding Your Terminal (Legacy vs. Modern)
 
-PowerShell is Windows' built-in terminal. You'll use it to install everything.
+On Windows, you need to separate the **Window (Terminal)** from the **Engine (Shell)**.
+
+### Windows 10: The "Legacy" Setup
+On Windows 10, the "Terminal" and the "Shell" feel like the same thing because they are tightly coupled in the old "Console Host" (the classic black window).
+- **The Container:** Console Host (basic, no tabs).
+- **The Brain:** PowerShell.
+- **The Experience:** When you open PowerShell, you are opening the legacy window running the PowerShell engine inside it.
+
+### Windows 11: The "Modern" Setup (Parallel to macOS)
+Windows 11 makes **Windows Terminal** the default, creating a relationship identical to macOS.
+- **The Container:** Windows Terminal (Modern, tabs, GPU accelerated).
+- **The Brain:** PowerShell.
+- **The Experience:** Clicking "Terminal" or "PowerShell" opens a modern window running the PowerShell engine.
+
+---
+
+## 🚀 Step 2: Open PowerShell (or Terminal)
+
+You'll use PowerShell to install everything.
 
 **How to open it:**
-1. Press the **Windows key (⊞)** on your keyboard
-2. Type `PowerShell`
-3. Right-click **Windows PowerShell** → **Run as administrator**
-   - Running as administrator gives you permission to install software
+1. Press the **Windows key (⊞)** on your keyboard.
+2. Type `PowerShell` (or `Terminal` if you're on Windows 11).
+3. Right-click the result → **Run as administrator**.
+   - *Running as administrator gives you permission to install software.*
 
-You'll see a window like:
-```
-PS C:\Windows\System32>
-```
-or
-```
-PS C:\Users\YourName>
-```
-
-That's your terminal. You're ready to type commands.
+### Why PowerShell is the "Superior Brain"
+PowerShell is far better than the old "Command Prompt" (CMD) for beginners:
+- **Object-Oriented**: It handles actual data, not just "dumb text."
+- **Human Readable**: It uses a simple Verb-Noun system (like `Get-Service` or `Set-ExecutionPolicy`).
+- **Universal**: It's a skill that now works on Mac and Linux too!
 
 ---
 
-## 📦 Step 2: Windows Terminal (Optional - Already Included in Recent Windows)
+## 📦 Step 3: Windows Terminal (For Windows 10 Users)
 
-**Windows 11 (version 22H2 and later):** Windows Terminal is already installed and is the default terminal app.
+If you are on Windows 10, you should install the modern **Windows Terminal** to get tabs and a much better experience.
 
-**Windows 10 and older Windows 11:** Windows Terminal is not included by default and needs to be installed.
+### If you need to install it:
 
-### Check if Windows Terminal is already installed
+**Option 1: Via Microsoft Store (easiest):**
+1. Open the **Microsoft Store**.
+2. Search for `Windows Terminal`.
+3. Click **Get** / **Install**.
 
-1. Press **Windows key (⊞)**
-2. Type `Windows Terminal`
-3. If it appears in the search results, it's already installed!
-
-### If Windows Terminal is not installed, install it:
-
-**Option 1: Via Microsoft Store (recommended for beginners):**
-1. Press **Windows key (⊞)**
-2. Type `Microsoft Store` and open it
-3. Search for `Windows Terminal`
-4. Click **Get** / **Install**
-
-**Option 2: Via PowerShell using winget (Windows 11 or recent Windows 10):**
-```
+**Option 2: Via PowerShell using winget:**
+```powershell
 winget install Microsoft.WindowsTerminal
 ```
 
-### Understanding PowerShell vs Windows Terminal
-
-- **PowerShell** is the command shell (the engine that processes commands) - this is built into Windows
-- **Windows Terminal** is the terminal host (the window that displays the shell) - this provides a better interface
-
-Once installed, use Windows Terminal instead of plain PowerShell for everything going forward. It supports multiple tabs, better customization, and can run multiple shells (PowerShell, Command Prompt, WSL) in one window.
+Once installed, always use **Windows Terminal** instead of plain PowerShell.
 
 ---
 

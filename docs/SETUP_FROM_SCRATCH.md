@@ -22,7 +22,7 @@ Total time estimate: **30–60 minutes** on a fresh machine.
 ## ⚠️ Before You Start: Know Your Operating System
 
 - **macOS** = you have an Apple Mac laptop or desktop
-- **Windows** = you have a PC running Windows (10 or 11)
+- **Windows** = you have a PC running Windows (11 or 10)
 - **Linux** = Ubuntu, Fedora, Debian, etc.
 
 **Not sure which you have?**
@@ -37,10 +37,9 @@ Follow only the section for **your** operating system.
 
 A terminal is a text-based app where you type commands. Think of it as talking directly to your computer.
 
-**Understanding Terminal vs Shell:**
-- **Terminal** is the application window (the emulator)
-- **Shell** is the command processor that runs inside the terminal
-- On modern macOS, you get **Terminal** (the app) running **zsh** (the shell) by default
+**Understanding Terminal (The Container) vs Shell (The Brain):**
+- **Terminal (The Window/UI):** The graphical application that provides the window, handles text rendering, fonts, and tabs.
+- **Shell (The Brain):** The program running inside that window that interprets your typed commands and executes them.
 
 ### macOS
 
@@ -52,7 +51,7 @@ You'll see a window with text like:
 ```
 your-name@MacBook ~ %
 ```
-That's your terminal. It's running zsh (Z shell) by default since macOS Catalina (10.15). zsh replaced bash as the default shell due to licensing changes. The terminal is the window, while zsh is the command processor that interprets your commands.
+On macOS, **Terminal** is your "Container" and **zsh** is your "Brain." Since macOS Catalina (10.15), zsh is the default shell.
 
 ---
 
@@ -102,6 +101,7 @@ You'll see a window with text like:
 ```
 PS C:\Users\YourName>
 ```
+On Windows 11, **Windows Terminal** is your "Container" and **PowerShell** is your "Brain." On Windows 10, PowerShell often runs in the older "Legacy" Console Host window.
 
 ### Linux (Ubuntu/Debian)
 

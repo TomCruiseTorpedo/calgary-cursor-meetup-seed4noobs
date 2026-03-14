@@ -17,8 +17,8 @@ Use `pwd` to print the current directory, `ls` to list files, `cd folder` to cha
 
 Check your Python version with `python --version`.  
 To create a virtual environment, run `python -m venv venv`.  
-To activate on Windows PowerShell, run `.\venv\Scripts\Activate.ps1`.  
 To activate on macOS Zsh, run `source venv/bin/activate`.  
+To activate on Windows PowerShell, run `.\venv\Scripts\Activate.ps1`.  
 To install dependencies, run `pip install <package>`.  
 To deactivate the virtual environment, run `deactivate`.
 
@@ -71,8 +71,9 @@ Compile TypeScript using `npx tsc`.
 
 ## 🛠 Common Issues & Fixes
 
-If PowerShell blocks a script, run `Set-ExecutionPolicy RemoteSigned`.  
-If a command is “not found,” make sure you reopened your terminal after installing a tool, and for macOS ensure nvm is loaded in your shell profile.
+If a command is “not found,” make sure you reopened your terminal after installing a tool.  
+On **macOS**, ensure nvm is loaded in your shell profile.  
+On **Windows**, if PowerShell blocks a script, run `Set-ExecutionPolicy RemoteSigned`.
 
 ---
 
@@ -81,7 +82,7 @@ If a command is “not found,” make sure you reopened your terminal after inst
 **Python Starter App**:
 Change directory to `templates/python/starter_app`.  
 Create a venv using `python -m venv venv`.  
-Activate it (Windows: `.\venv\Scripts\Activate.ps1`; macOS: `source venv/bin/activate`).  
+Activate it (macOS: `source venv/bin/activate`; Windows: `.\venv\Scripts\Activate.ps1`).  
 Install requirements with `pip install -r requirements.txt`.  
 Run the app with `python app.py`.
 

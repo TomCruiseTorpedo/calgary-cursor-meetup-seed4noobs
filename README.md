@@ -16,9 +16,9 @@ Welcome! This repository is designed for **absolute beginners** and for **agenti
 > - 🍎 **Mac users:** Also see [`docs/HOMEBREW_INSTALL.md`](docs/HOMEBREW_INSTALL.md)
 > - 🪟 **Windows users:** Also see [`docs/WINDOWS_SETUP.md`](docs/WINDOWS_SETUP.md)
 >
-> **Note for Windows users:** PowerShell is built into Windows and is your default command shell. Windows Terminal (a better terminal app) is included by default in Windows 11 version 22H2 and later. For older Windows versions, it can be installed from the Microsoft Store.
+> **Note for Mac users:** Terminal is the built-in application (the "Container") and it runs **zsh** (the "Brain") by default. Terminal provides the window, while zsh processes your commands.
 >
-> **Note for Mac users:** Terminal is built into macOS and runs zsh (Z shell) by default since macOS Catalina (10.15). zsh replaced bash as the default shell due to licensing changes. Terminal is the emulator, while zsh is the command shell that processes your commands.
+> **Note for Windows users:** Windows Terminal is the modern "Container" (default on Windows 11), and it runs **PowerShell** (the "Brain") by default. On Windows 10, PowerShell often runs in the older "Legacy" Console Host window.
 
 ---
 
