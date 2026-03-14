@@ -90,16 +90,13 @@ Any agentic coding harness (Cursor, VS Code with Copilot, Antigravity, etc.) can
 1. **Scan the QR code** you were handed to claim Cursor credits
 2. **Create / sign into Cursor**
 3. **Activate Pro subscription**
-
-- You *must* add a credit card
-- This activates the plan so the credits can be applied
-- *You will not be charged immediately*
-
-1. **Use Cursor + this repo** to prepare:
-
-- Install tools
-- Learn basics
-- Build a mini prototype
+   - You *must* add a credit card
+   - This activates the plan so the credits can be applied
+   - *You will not be charged immediately*
+4. **Use Cursor + this repo** to prepare:
+   - Install tools
+   - Learn basics
+   - Build a mini prototype
 
 ---
 

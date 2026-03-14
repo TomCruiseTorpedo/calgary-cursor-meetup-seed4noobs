@@ -73,17 +73,17 @@ Once installed, always use **Windows Terminal** instead of plain PowerShell.
 
 ---
 
-## 🔧 Step 3: Install Git
+## 🔧 Step 4: Install Git
 
 Git is how developers save and share code. You need it.
 
 ### Check if Git is already installed
 
-```
+```powershell
 git --version
 ```
 
-**If you see `git version 2.x.x`** → Already installed! Skip to Step 4.
+**If you see `git version 2.x.x`** → Already installed! Skip to Step 5.
 
 **If you see "The term 'git' is not recognized"** → Install it:
 
@@ -114,20 +114,21 @@ git config --global user.email "your.email@example.com"
 
 ---
 
-## ⬡ Step 4: Install Node.js and npm
+## ⬡ Step 5: Install Node.js and npm
 
 Node.js lets you run JavaScript on your computer. npm is Node's package manager.
 
 ### Check if already installed
 
-```
+```powershell
 node --version
 ```
-```
+
+```powershell
 npm --version
 ```
 
-**If both show version numbers** → Already installed! Skip to Step 5.
+**If both show version numbers** → Already installed! Skip to Step 6.
 
 ### Install Node.js (Direct installer — simplest)
 
@@ -158,22 +159,23 @@ After that, close and reopen PowerShell, then verify with `node --version`.
 
 ---
 
-## 🐍 Step 5: Install Python
+## 🐍 Step 6: Install Python
 
 Python is a beginner-friendly programming language.
 
 ### Check if already installed
 
-```
+```powershell
 python --version
 ```
 
 Also try:
-```
+
+```powershell
 python3 --version
 ```
 
-**If you see `Python 3.x.x`** → Already installed! Skip to Step 6.
+**If you see `Python 3.x.x`** → Already installed! Skip to Step 7.
 
 **If you see `Python 2.x.x`** → That's an old version. Follow the install steps below.
 
@@ -203,12 +205,13 @@ winget install Python.Python.3.12
 
 ---
 
-## 🛡️ Step 6: Fix PowerShell Execution Policy (If Needed)
+## 🛡️ Step 7: Fix PowerShell Execution Policy (If Needed)
 
 Windows sometimes blocks running scripts for security reasons. If you ever see an error about "execution policy" or "scripts are disabled on this system", fix it:
 
 Open PowerShell **as Administrator** and run:
-```
+
+```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
@@ -218,7 +221,7 @@ This allows you to run scripts you've downloaded from the internet (required for
 
 ---
 
-## 🧑‍💻 Step 7: Install Cursor
+## 🧑‍💻 Step 8: Install Cursor
 
 Cursor is the AI-powered code editor you'll use.
 
@@ -232,20 +235,23 @@ Cursor is the AI-powered code editor you'll use.
 
 ---
 
-## ✅ Step 8: Verify Everything
+## ✅ Step 9: Verify Everything
 
 Open a fresh PowerShell window (or Windows Terminal) and run each of these:
 
-```
+```powershell
 git --version
 ```
-```
+
+```powershell
 node --version
 ```
-```
+
+```powershell
 npm --version
 ```
-```
+
+```powershell
 python --version
 ```
 
@@ -258,9 +264,10 @@ Every command should show a version number. If any show an error, re-do that ste
 ### "is not recognized as the name of a cmdlet"
 
 This means Windows can't find the program. Fixes to try (in order):
-1. Close PowerShell completely, open a new window, try again
-2. Restart your computer
-3. Re-run the installer for that tool, making sure to check any "Add to PATH" options
+
+1. Close PowerShell completely, open a new window, try again.
+2. Restart your computer.
+3. Re-run the installer for that tool, making sure to check any "Add to PATH" options.
 
 ### Python opens the Microsoft Store instead of running
 
@@ -276,14 +283,16 @@ Run PowerShell as Administrator (right-click → "Run as administrator") and try
 ### "Running scripts is disabled on this system"
 
 Run this in an Administrator PowerShell:
-```
+
+```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 ### Git asks for credentials every time
 
 Configure Git to remember your credentials:
-```
+
+```powershell
 git config --global credential.helper manager
 ```
 

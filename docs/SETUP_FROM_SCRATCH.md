@@ -61,13 +61,13 @@ Once you have the basic terminal working, you can optionally enhance your zsh ex
 
 Oh My Zsh is an open-source, community-driven framework that manages your zsh configuration. It transforms a plain terminal into a much more powerful and visually appealing tool through pre-configured settings, themes, and plugins.
 
-### Core Features
+##### Core Features
 
 - **300+ Plugins**: Add shortcuts (aliases) and functions for nearly every developer tool (Git, Docker, npm, Python, etc.)
 - **150+ Themes**: Instantly change your prompt's look to show useful info like Git branch, time, or system status
 - **Automatic Updates**: Built-in tool keeps the framework and components up to date
 
-### Popular Add-ons
+##### Popular Add-ons
 
 While many features are built-in, most users install these "must-have" plugins:
 
@@ -75,15 +75,15 @@ While many features are built-in, most users install these "must-have" plugins:
 - **zsh-syntax-highlighting**: Colors your commands in real-time (red for invalid, green for correct)
 - **Powerlevel10k**: The most popular and flexible theme for a highly customized, fast interface
 
-### Installation
+##### Installation
 
 If you have curl installed, you can install Oh My Zsh with a single command:
 
-```
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Performance Note
+##### Performance Note
 
 Because Oh My Zsh loads many scripts at startup, some users find it can slightly slow down how quickly a new terminal window opens. This is usually not noticeable on modern machines, but if you experience slow startup times, you can always uninstall it later.
 
