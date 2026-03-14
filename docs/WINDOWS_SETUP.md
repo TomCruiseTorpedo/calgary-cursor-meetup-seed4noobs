@@ -8,11 +8,12 @@ This walks you through setting up a developer environment on Windows 10 or Windo
 
 ## 📋 What You'll Install
 
-1. Windows Terminal (better terminal app)
-2. Git
-3. Node.js + npm (for JavaScript projects)
-4. Python (for Python projects)
-5. Cursor (the AI coding tool)
+1. Git
+2. Node.js + npm (for JavaScript projects)
+3. Python (for Python projects)
+4. Cursor (the AI coding tool)
+
+**Note:** PowerShell and Windows Terminal are already included with Windows (see details below).
 
 ---
 
@@ -39,22 +40,37 @@ That's your terminal. You're ready to type commands.
 
 ---
 
-## 📦 Step 2: Install Windows Terminal (Recommended)
+## 📦 Step 2: Windows Terminal (Optional - Already Included in Recent Windows)
 
-Windows Terminal is a much better terminal app than the default one. It supports multiple tabs, is easier to use, and looks nicer.
+**Windows 11 (version 22H2 and later):** Windows Terminal is already installed and is the default terminal app.
 
-**Install via the Microsoft Store:**
+**Windows 10 and older Windows 11:** Windows Terminal is not included by default and needs to be installed.
+
+### Check if Windows Terminal is already installed
+
+1. Press **Windows key (⊞)**
+2. Type `Windows Terminal`
+3. If it appears in the search results, it's already installed!
+
+### If Windows Terminal is not installed, install it:
+
+**Option 1: Via Microsoft Store (recommended for beginners):**
 1. Press **Windows key (⊞)**
 2. Type `Microsoft Store` and open it
 3. Search for `Windows Terminal`
 4. Click **Get** / **Install**
 
-Once installed, use Windows Terminal instead of plain PowerShell for everything going forward.
-
-Alternatively, install it from PowerShell using `winget` (Windows' built-in package manager):
+**Option 2: Via PowerShell using winget (Windows 11 or recent Windows 10):**
 ```
 winget install Microsoft.WindowsTerminal
 ```
+
+### Understanding PowerShell vs Windows Terminal
+
+- **PowerShell** is the command shell (the engine that processes commands) - this is built into Windows
+- **Windows Terminal** is the terminal host (the window that displays the shell) - this provides a better interface
+
+Once installed, use Windows Terminal instead of plain PowerShell for everything going forward. It supports multiple tabs, better customization, and can run multiple shells (PowerShell, Command Prompt, WSL) in one window.
 
 ---
 

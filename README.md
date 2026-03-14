@@ -15,6 +15,8 @@ Welcome! This repository is designed for **absolute beginners** and for **agenti
 >
 > - 🍎 **Mac users:** Also see [`docs/HOMEBREW_INSTALL.md`](docs/HOMEBREW_INSTALL.md)
 > - 🪟 **Windows users:** Also see [`docs/WINDOWS_SETUP.md`](docs/WINDOWS_SETUP.md)
+>
+> **Note for Windows users:** PowerShell is built into Windows and is your default command shell. Windows Terminal (a better terminal app) is included by default in Windows 11 version 22H2 and later. For older Windows versions, it can be installed from the Microsoft Store.
 
 ---
 
