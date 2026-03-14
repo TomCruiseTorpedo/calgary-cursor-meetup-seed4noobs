@@ -53,13 +53,11 @@ your-name@MacBook ~ %
 ```
 On macOS, **Terminal** is your "Container" and **zsh** is your "Brain." Since macOS Catalina (10.15), zsh is the default shell.
 
----
-
-## 🎨 Optional: Enhance Your Terminal with Oh My Zsh
+#### 🎨 Optional: Enhance Your Terminal with Oh My Zsh
 
 Once you have the basic terminal working, you can optionally enhance your zsh experience with **Oh My Zsh** - a popular framework that makes your terminal more powerful and visually appealing.
 
-### What is Oh My Zsh?
+##### What is Oh My Zsh?
 
 Oh My Zsh is an open-source, community-driven framework that manages your zsh configuration. It transforms a plain terminal into a much more powerful and visually appealing tool through pre-configured settings, themes, and plugins.
 
@@ -90,6 +88,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 Because Oh My Zsh loads many scripts at startup, some users find it can slightly slow down how quickly a new terminal window opens. This is usually not noticeable on modern machines, but if you experience slow startup times, you can always uninstall it later.
 
 **Note:** This step is completely optional. Your terminal will work perfectly fine without Oh My Zsh - it just adds extra features and customization options.
+
+---
 
 ### Windows
 
@@ -130,7 +130,13 @@ git --version
 
 ### Install Git on macOS
 
-When you run `git --version` and Git isn't installed, macOS will usually **automatically offer to install it** through Xcode Command Line Tools. A popup window will appear — just click **Install** and wait.
+When you run exactly this command and Git isn't installed:
+
+```bash
+git --version
+```
+
+macOS will usually **automatically offer to install it** through Xcode Command Line Tools. A popup window will appear — just click **Install** and wait.
 
 If that doesn't happen, install it manually:
 
@@ -243,35 +249,41 @@ npm --version
 
 **nvm** (Node Version Manager) lets you install and manage Node.js versions. It's the recommended approach.
 
-**Step A: Install nvm**
+**Option A: Install nvm**
 
-```
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 After it finishes, close your terminal completely and open a new one.
 
 Then verify nvm installed:
-```
+
+```bash
 nvm --version
 ```
 
 If you get "command not found", run this first and try again:
-```
+
+```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
 
-**Step B: Install Node.js using nvm**
+**Option B: Install Node.js using nvm**
 
-```
+```bash
 nvm install 22
 nvm use 22
 ```
 
 Verify:
-```
+
+```bash
 node --version
+```
+
+```bash
 npm --version
 ```
 
@@ -355,12 +367,13 @@ python --version
 
 **Option A: Using Homebrew (easiest)**
 
-```
+```bash
 brew install python
 ```
 
-After it finishes:
-```
+After it finishes, verify:
+
+```bash
 python3 --version
 ```
 
