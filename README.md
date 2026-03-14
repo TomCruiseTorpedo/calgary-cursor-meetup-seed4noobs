@@ -17,6 +17,8 @@ Welcome! This repository is designed for **absolute beginners** and for **agenti
 > - 🪟 **Windows users:** Also see [`docs/WINDOWS_SETUP.md`](docs/WINDOWS_SETUP.md)
 >
 > **Note for Windows users:** PowerShell is built into Windows and is your default command shell. Windows Terminal (a better terminal app) is included by default in Windows 11 version 22H2 and later. For older Windows versions, it can be installed from the Microsoft Store.
+>
+> **Note for Mac users:** Terminal is built into macOS and runs zsh (Z shell) by default since macOS Catalina (10.15). zsh replaced bash as the default shell due to licensing changes. Terminal is the emulator, while zsh is the command shell that processes your commands.
 
 ---
 

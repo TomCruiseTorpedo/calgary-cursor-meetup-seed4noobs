@@ -37,6 +37,11 @@ Follow only the section for **your** operating system.
 
 A terminal is a text-based app where you type commands. Think of it as talking directly to your computer.
 
+**Understanding Terminal vs Shell:**
+- **Terminal** is the application window (the emulator)
+- **Shell** is the command processor that runs inside the terminal
+- On modern macOS, you get **Terminal** (the app) running **zsh** (the shell) by default
+
 ### macOS
 
 1. Press **Cmd (⌘) + Space** together to open Spotlight
@@ -47,7 +52,7 @@ You'll see a window with text like:
 ```
 your-name@MacBook ~ %
 ```
-That's your terminal. It's waiting for you to type a command.
+That's your terminal. It's running zsh (Z shell) by default since macOS Catalina (10.15). zsh replaced bash as the default shell due to licensing changes. The terminal is the window, while zsh is the command processor that interprets your commands.
 
 ### Windows
 
