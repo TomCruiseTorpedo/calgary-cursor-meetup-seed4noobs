@@ -21,17 +21,17 @@ This walks you through setting up a developer environment on Windows 10 or Windo
 
 On Windows, you need to separate the **Window (Terminal)** from the **Engine (Shell)**.
 
-### Windows 10: The "Legacy" Setup
-On Windows 10, the "Terminal" and the "Shell" feel like the same thing because they are tightly coupled in the old "Console Host" (the classic black window).
-- **The Container:** Console Host (basic, no tabs).
-- **The Brain:** PowerShell.
-- **The Experience:** When you open PowerShell, you are opening the legacy window running the PowerShell engine inside it.
-
 ### Windows 11: The "Modern" Setup (Parallel to macOS)
 Windows 11 makes **Windows Terminal** the default, creating a relationship identical to macOS.
 - **The Container:** Windows Terminal (Modern, tabs, GPU accelerated).
 - **The Brain:** PowerShell.
 - **The Experience:** Clicking "Terminal" or "PowerShell" opens a modern window running the PowerShell engine.
+
+### Windows 10: The "Legacy" Setup
+On Windows 10, the "Terminal" and the "Shell" feel like the same thing because they are tightly coupled in the old "Console Host" (the classic black window).
+- **The Container:** Console Host (basic, no tabs).
+- **The Brain:** PowerShell.
+- **The Experience:** When you open PowerShell, you are opening the legacy window running the PowerShell engine inside it.
 
 ---
 
