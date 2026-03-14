@@ -54,6 +54,44 @@ your-name@MacBook ~ %
 ```
 That's your terminal. It's running zsh (Z shell) by default since macOS Catalina (10.15). zsh replaced bash as the default shell due to licensing changes. The terminal is the window, while zsh is the command processor that interprets your commands.
 
+---
+
+## 🎨 Optional: Enhance Your Terminal with Oh My Zsh
+
+Once you have the basic terminal working, you can optionally enhance your zsh experience with **Oh My Zsh** - a popular framework that makes your terminal more powerful and visually appealing.
+
+### What is Oh My Zsh?
+
+Oh My Zsh is an open-source, community-driven framework that manages your zsh configuration. It transforms a plain terminal into a much more powerful and visually appealing tool through pre-configured settings, themes, and plugins.
+
+### Core Features
+
+- **300+ Plugins**: Add shortcuts (aliases) and functions for nearly every developer tool (Git, Docker, npm, Python, etc.)
+- **150+ Themes**: Instantly change your prompt's look to show useful info like Git branch, time, or system status
+- **Automatic Updates**: Built-in tool keeps the framework and components up to date
+
+### Popular Add-ons
+
+While many features are built-in, most users install these "must-have" plugins:
+
+- **zsh-autosuggestions**: Suggests commands as you type based on your command history
+- **zsh-syntax-highlighting**: Colors your commands in real-time (red for invalid, green for correct)
+- **Powerlevel10k**: The most popular and flexible theme for a highly customized, fast interface
+
+### Installation
+
+If you have curl installed, you can install Oh My Zsh with a single command:
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### Performance Note
+
+Because Oh My Zsh loads many scripts at startup, some users find it can slightly slow down how quickly a new terminal window opens. This is usually not noticeable on modern machines, but if you experience slow startup times, you can always uninstall it later.
+
+**Note:** This step is completely optional. Your terminal will work perfectly fine without Oh My Zsh - it just adds extra features and customization options.
+
 ### Windows
 
 1. Press the **Windows key (⊞)** on your keyboard
