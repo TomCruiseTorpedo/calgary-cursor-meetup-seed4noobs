@@ -26,6 +26,7 @@ Total time estimate: **30–60 minutes** on a fresh machine.
 - **Linux** = Ubuntu, Fedora, Debian, etc.
 
 **Not sure which you have?**
+
 - If you see the Apple logo (🍎) on your computer, you have a Mac (macOS).
 - If you see a Windows logo (⊞), you have Windows.
 
@@ -38,6 +39,7 @@ Follow only the section for **your** operating system.
 A terminal is a text-based app where you type commands. Think of it as talking directly to your computer.
 
 **Understanding Terminal (The Container) vs Shell (The Brain):**
+
 - **Terminal (The Window/UI):** The graphical application that provides the window, handles text rendering, fonts, and tabs.
 - **Shell (The Brain):** The program running inside that window that interprets your typed commands and executes them.
 
@@ -48,9 +50,11 @@ A terminal is a text-based app where you type commands. Think of it as talking d
 3. Press **Enter**
 
 You'll see a window with text like:
+
 ```
 your-name@MacBook ~ %
 ```
+
 On macOS, **Terminal** is your "Container" and **zsh** is your "Brain." Since macOS Catalina (10.15), zsh is the default shell.
 
 #### 🎨 Optional: Enhance Your Terminal with Oh My Zsh
@@ -72,7 +76,7 @@ Oh My Zsh is an open-source, community-driven framework that manages your zsh co
 While many features are built-in, most users install these "must-have" plugins:
 
 - **zsh-autosuggestions**: Suggests commands as you type based on your command history
-- **zsh-syntax-highlighting**: Colors your commands in real-time (red for invalid, green for correct)
+- **zsh-syntax-highlighting**: Colours your commands in real-time (red for invalid, green for correct)
 - **Powerlevel10k**: The most popular and flexible theme for a highly customized, fast interface
 
 ##### Installation
@@ -98,9 +102,11 @@ Because Oh My Zsh loads many scripts at startup, some users find it can slightly
 3. Click **Windows PowerShell** (right-click → "Run as administrator" for installs)
 
 You'll see a window with text like:
+
 ```
 PS C:\Users\YourName>
 ```
+
 On Windows 11, **Windows Terminal** is your "Container" and **PowerShell** is your "Brain." On Windows 10, PowerShell often runs in the older "Legacy" Console Host window.
 
 ### Linux (Ubuntu/Debian)
@@ -140,7 +146,7 @@ macOS will usually **automatically offer to install it** through Xcode Command L
 
 If that doesn't happen, install it manually:
 
-1. Go to: https://git-scm.com/downloads/mac
+1. Go to: <https://git-scm.com/downloads/mac>
 2. Download the installer
 3. Open the `.dmg` file and follow the prompts
 
@@ -150,16 +156,18 @@ After installing, close your terminal, open a new one, and run `git --version` a
 
 ### Install Git on Windows
 
-1. Go to: https://git-scm.com/downloads/win
+1. Go to: <https://git-scm.com/downloads/win>
 2. Click the download link — it will automatically download the right version
 3. Open the downloaded `.exe` file
 4. Click through the installer, accepting the defaults (just keep clicking **Next**)
 5. Click **Install**, then **Finish**
 
 After installing, close PowerShell, open a new one, and run:
+
 ```
 git --version
 ```
+
 You should now see a version number.
 
 ---
@@ -172,6 +180,7 @@ sudo apt install git -y
 ```
 
 Verify:
+
 ```
 git --version
 ```
@@ -207,18 +216,21 @@ Paste this entire command into your Mac terminal and press Enter:
 - Wait for it to finish (can take 5–15 minutes)
 
 **After it finishes**, Homebrew may show you a message like:
+
 ```
 ==> Next steps:
 Run these two commands in your terminal...
 ```
 
 If you see that, copy and run those commands exactly as shown. They look something like:
+
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/YOURNAME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 Verify Homebrew works:
+
 ```
 brew --version
 ```
@@ -295,7 +307,7 @@ You should see `v22.x.x` for Node and `10.x.x` for npm.
 
 **Option A: Direct installer (simplest for beginners)**
 
-1. Go to: https://nodejs.org/en/download
+1. Go to: <https://nodejs.org/en/download>
 2. Click the big **"Download Node.js (LTS)"** button
 3. Open the downloaded `.msi` file
 4. Click through the installer (accept defaults, keep clicking Next)
@@ -303,6 +315,7 @@ You should see `v22.x.x` for Node and `10.x.x` for npm.
 6. Finish and restart your computer
 
 After restarting, open PowerShell and verify:
+
 ```
 node --version
 npm --version
@@ -310,16 +323,19 @@ npm --version
 
 **Option B: Using nvm-windows (for managing multiple versions)**
 
-1. Go to: https://github.com/coreybutler/nvm-windows/releases
+1. Go to: <https://github.com/coreybutler/nvm-windows/releases>
 2. Download `nvm-setup.exe` from the latest release
 3. Run the installer
 4. Open a **new** PowerShell window as Administrator
 5. Run:
+
 ```
 nvm install 22
 nvm use 22
 ```
+
 Then verify:
+
 ```
 node --version
 npm --version
@@ -335,6 +351,7 @@ sudo apt install -y nodejs
 ```
 
 Verify:
+
 ```
 node --version
 npm --version
@@ -353,6 +370,7 @@ python3 --version
 ```
 
 Also try:
+
 ```
 python --version
 ```
@@ -379,7 +397,7 @@ python3 --version
 
 **Option B: Direct installer**
 
-1. Go to: https://www.python.org/downloads/
+1. Go to: <https://www.python.org/downloads/>
 2. Click the big yellow **"Download Python 3.x.x"** button
 3. Open the downloaded `.pkg` file
 4. Follow the installer prompts
@@ -388,7 +406,7 @@ python3 --version
 
 ### Install Python on Windows
 
-1. Go to: https://www.python.org/downloads/
+1. Go to: <https://www.python.org/downloads/>
 2. Click the big yellow **"Download Python 3.x.x"** button
 3. Open the downloaded `.exe`
 4. **⚠️ IMPORTANT:** On the first screen of the installer, **check the box that says "Add Python 3.x to PATH"** — this is critical!
@@ -396,6 +414,7 @@ python3 --version
 6. Wait for it to finish, then click **Close**
 
 Open a **new** PowerShell window and verify:
+
 ```
 python --version
 ```
@@ -405,11 +424,13 @@ python --version
 ### Install Python on Linux (Ubuntu/Debian)
 
 Python 3 is usually pre-installed on Linux. Check with:
+
 ```
 python3 --version
 ```
 
 If it's missing:
+
 ```
 sudo apt update
 sudo apt install python3 python3-pip -y
@@ -423,7 +444,7 @@ Cursor is the AI-powered code editor you'll be using for this project.
 
 ### Download Cursor
 
-1. Go to: https://www.cursor.com
+1. Go to: <https://www.cursor.com>
 2. Click the **Download** button — it will detect your operating system automatically
 3. Install it like any other app:
    - **Mac**: Open the `.dmg` file, drag Cursor to your Applications folder
@@ -445,23 +466,27 @@ Open a fresh terminal and run these commands one by one. Each should show a vers
 ```
 git --version
 ```
+
 ```
 node --version
 ```
+
 ```
 npm --version
 ```
+
 ```
 python3 --version
 ```
 
 If **any** of these give you "command not found", go back to the relevant section and re-do that install step. Common fixes:
+
 - Close your terminal and open a new one (installs often need a fresh terminal)
 - On Windows: restart your computer after installing
 
 ---
 
-## 🎉 You're Ready!
+## 🎉 You're Ready
 
 Once all checks pass, head to:
 
@@ -480,7 +505,7 @@ Once all checks pass, head to:
 
 ### Permission errors on Mac
 
-Don't use `sudo` with Homebrew. If you get permission errors, check: https://docs.brew.sh/FAQ
+Don't use `sudo` with Homebrew. If you get permission errors, check: <https://docs.brew.sh/FAQ>
 
 ### Permission errors on Windows
 

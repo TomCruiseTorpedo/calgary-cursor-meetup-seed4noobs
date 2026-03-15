@@ -2,7 +2,7 @@
 
 **This guide is for Windows only.** If you're on a Mac, use [SETUP_FROM_SCRATCH.md](SETUP_FROM_SCRATCH.md) instead.
 
-This walks you through setting up a developer environment on Windows 10 or Windows 11, starting from absolutely nothing.
+This walks you through setting up a developer environment on Windows 11 or Windows 10, starting from absolutely nothing.
 
 ---
 
@@ -13,22 +13,26 @@ This walks you through setting up a developer environment on Windows 10 or Windo
 3. Python (for Python projects)
 4. Cursor (the AI coding tool)
 
-**Note:** PowerShell (the "Brain") and Windows Terminal (the "Container") are already included with Windows (see details below).
+**Note:** Windows Terminal (the "Container") and PowerShell (the "Brain") are already included with Windows 11 (see details below).
 
 ---
 
-## 🖥️ Step 1: Understanding Your Terminal (Legacy vs. Modern)
+## 🖥️ Step 1: Understanding Your Terminal (Modern vs. Legacy)
 
-On Windows, you need to separate the **Window (Terminal)** from the **Engine (Shell)**.
+On Windows, you need to separate the **Container (Terminal)** from the **Brain (Shell)**.
 
 ### Windows 11: The "Modern" Setup (Parallel to macOS)
+
 Windows 11 makes **Windows Terminal** the default, creating a relationship identical to macOS.
+
 - **The Container:** Windows Terminal (Modern, tabs, GPU accelerated).
 - **The Brain:** PowerShell.
 - **The Experience:** Clicking "Terminal" or "PowerShell" opens a modern window running the PowerShell engine.
 
 ### Windows 10: The "Legacy" Setup
+
 On Windows 10, the "Terminal" and the "Shell" feel like the same thing because they are tightly coupled in the old "Console Host" (the classic black window).
+
 - **The Container:** Console Host (basic, no tabs).
 - **The Brain:** PowerShell.
 - **The Experience:** When you open PowerShell, you are opening the legacy window running the PowerShell engine inside it.
@@ -40,13 +44,16 @@ On Windows 10, the "Terminal" and the "Shell" feel like the same thing because t
 You'll use PowerShell to install everything.
 
 **How to open it:**
+
 1. Press the **Windows key (⊞)** on your keyboard.
 2. Type `PowerShell` (or `Terminal` if you're on Windows 11).
 3. Right-click the result → **Run as administrator**.
    - *Running as administrator gives you permission to install software.*
 
 ### Why PowerShell is the "Superior Brain"
+
 PowerShell is far better than the old "Command Prompt" (CMD) for beginners:
+
 - **Object-Oriented**: It handles actual data, not just "dumb text."
 - **Human Readable**: It uses a simple Verb-Noun system (like `Get-Service` or `Set-ExecutionPolicy`).
 - **Universal**: It's a skill that now works on Mac and Linux too!
@@ -57,14 +64,16 @@ PowerShell is far better than the old "Command Prompt" (CMD) for beginners:
 
 If you are on Windows 10, you should install the modern **Windows Terminal** to get tabs and a much better experience.
 
-### If you need to install it:
+### If you need to install it
 
 **Option 1: Via Microsoft Store (easiest):**
+
 1. Open the **Microsoft Store**.
 2. Search for `Windows Terminal`.
 3. Click **Get** / **Install**.
 
 **Option 2: Via PowerShell using winget:**
+
 ```powershell
 winget install Microsoft.WindowsTerminal
 ```
@@ -87,7 +96,7 @@ git --version
 
 **If you see "The term 'git' is not recognized"** → Install it:
 
-1. Go to: https://git-scm.com/downloads/win
+1. Go to: <https://git-scm.com/downloads/win>
 2. Click the **"Click here to download"** link — it auto-detects your Windows version
 3. Open the downloaded `.exe` file
 4. Click through the installer:
@@ -97,6 +106,7 @@ git --version
 5. Click **Install**, then **Finish**
 
 **After installing:** Close PowerShell completely, open a new one, and verify:
+
 ```
 git --version
 ```
@@ -108,6 +118,7 @@ Git needs to know who you are. Run these two commands (replace with your actual 
 ```
 git config --global user.name "Your Name"
 ```
+
 ```
 git config --global user.email "your.email@example.com"
 ```
@@ -132,7 +143,7 @@ npm --version
 
 ### Install Node.js (Direct installer — simplest)
 
-1. Go to: https://nodejs.org/en/download
+1. Go to: <https://nodejs.org/en/download>
 2. Click **"Download Node.js (LTS)"** — LTS means "Long Term Support" (stable version)
 3. Open the downloaded `.msi` installer
 4. Click through it (keep default settings, click Next)
@@ -141,6 +152,7 @@ npm --version
 7. **Restart your computer** after installation completes
 
 After restarting, open a new PowerShell window and verify:
+
 ```
 node --version
 npm --version
@@ -151,6 +163,7 @@ You should see version numbers like `v22.x.x` and `10.x.x`.
 ### Alternative: Install with winget
 
 If you have Windows 11 or a recent Windows 10, you can use `winget`:
+
 ```
 winget install OpenJS.NodeJS.LTS
 ```
@@ -181,18 +194,19 @@ python3 --version
 
 ### Install Python
 
-1. Go to: https://www.python.org/downloads/
+1. Go to: <https://www.python.org/downloads/>
 2. Click the big yellow **"Download Python 3.x.x"** button at the top
 3. Open the downloaded `.exe` file
 4. **⚠️ CRITICAL:** On the very first screen of the installer, you'll see a checkbox at the bottom that says:
    **"Add Python 3.x to PATH"**
-   
+
    **CHECK THIS BOX BEFORE DOING ANYTHING ELSE.** This is the most common beginner mistake — if you miss this checkbox, Python won't work from the terminal.
 
 5. Click **Install Now**
 6. Wait for it to finish → click **Close**
 
 Open a **brand new** PowerShell window and verify:
+
 ```
 python --version
 ```
@@ -225,7 +239,7 @@ This allows you to run scripts you've downloaded from the internet (required for
 
 Cursor is the AI-powered code editor you'll use.
 
-1. Go to: https://www.cursor.com
+1. Go to: <https://www.cursor.com>
 2. Click **Download** — it will detect Windows automatically
 3. Open the downloaded `.exe` installer
 4. Follow the prompts — it installs like any other Windows app
@@ -272,6 +286,7 @@ This means Windows can't find the program. Fixes to try (in order):
 ### Python opens the Microsoft Store instead of running
 
 Windows 10 has a quirk where typing `python` opens the Store. Fix it:
+
 1. Search for "Manage app execution aliases" in the Start menu
 2. Turn **OFF** the entries for "python.exe" and "python3.exe"
 3. Now `python` in PowerShell will use your real Python installation
