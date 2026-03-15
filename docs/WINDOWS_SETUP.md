@@ -162,11 +162,13 @@ You should see version numbers like `v22.x.x` and `10.x.x`.
 
 ### Alternative: Install with winget
 
-If you have Windows 11 or a recent Windows 10, you can use `winget`:
+If you have Windows 11 (winget pre-installed) or Windows 10 with winget installed:
 
 ```
 winget install OpenJS.NodeJS.LTS
 ```
+
+**Windows 10 users:** Install winget first via Microsoft Store if not already installed.
 
 After that, close and reopen PowerShell, then verify with `node --version`.
 
