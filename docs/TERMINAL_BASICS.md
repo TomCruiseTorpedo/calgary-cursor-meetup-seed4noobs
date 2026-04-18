@@ -51,8 +51,6 @@ You’ll see something like:
 
 ---
 
----
-
 ## Parallel Comparison Summary
 
 The relationship between the Window (Terminal) and the Shell (Brain) is identical on modern macOS and Windows 11.

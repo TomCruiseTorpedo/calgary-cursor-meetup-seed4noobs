@@ -5,7 +5,7 @@ to run a simple web application locally.
 
 It requires a Python 3 installation and a virtual environment.
 
-    Requires Python **3.12.12**.
+    Requires Python **3.12** or newer.
 
 ---
 

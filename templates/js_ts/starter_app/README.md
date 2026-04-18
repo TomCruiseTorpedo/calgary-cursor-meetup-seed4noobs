@@ -5,7 +5,7 @@ TypeScript, compile it to JavaScript, and run code in a browser.
 
 It includes the bare minimum to get you started.
 
-    Requires Node **v22.22.0**.
+    Requires Node **22 LTS** or newer.
 
 ---
 

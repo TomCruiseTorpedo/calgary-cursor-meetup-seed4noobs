@@ -13,7 +13,7 @@ Use `pwd` to print the current directory, `ls` to list files, `cd folder` to cha
 
 ---
 
-## 🐍 Python (3.12.12) Quick Commands
+## 🐍 Python (3.12+) Quick Commands
 
 Check your Python version with `python --version`.  
 To create a virtual environment, run `python -m venv venv`.  
@@ -126,7 +126,7 @@ Ask for user readiness: “Are you ready for me to paste this into your terminal
 ## 🎯 Success Checkpoints
 
 ✔ Terminal basics understood  
-✔ Python `3.12.12` virtual environment created  
+✔ Python `3.12+` virtual environment created  
 ✔ Node `v22` installed  
 ✔ GitHub repo initialized and pushed  
 ✔ Starter templates running locally

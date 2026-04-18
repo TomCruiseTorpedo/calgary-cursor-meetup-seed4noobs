@@ -290,8 +290,6 @@ Cursor is the AI-powered code editor you'll use.
 
 ---
 
----
-
 ## ✅ Step 10: Verify Everything
 
 Open a fresh PowerShell window (or Windows Terminal) and run each of these:

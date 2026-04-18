@@ -122,7 +122,7 @@ The harness should check off tasks based on the success criteria defined in `ai/
 
 Example success outputs:
 
-- "You see `Python 3.12.12` in your terminal"
+- "You see `Python 3.12.x` in your terminal"
 - "You installed dependencies without errors"
 
 ---

@@ -36,8 +36,6 @@ If you're running Linux, you probably don't need this guide — you already know
 
 ---
 
----
-
 ## ⚠️ Before You Start: Know Your Operating System
 
 - **macOS** = you have an Apple Mac laptop or desktop

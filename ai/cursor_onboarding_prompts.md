@@ -33,7 +33,7 @@ Prompt:
 “Give me a prioritized list of setup tasks for a beginner, with estimated times for each task (e.g., 5 min, 10 min). Identify any tasks that could be skipped or simplified if time is limited.”
 
 Prompt:
-“Generate a simple glossary of terms that beginners in this hackathon should know (e.g., terminal, CLI, Git, commit, branch, virtual environment, npm, TypeScript). Use plain language and examples.”
+“Generate a simple glossary of terms that beginners should know (e.g., terminal, CLI, Git, commit, branch, virtual environment, npm, TypeScript). Use plain language and examples.”
 
 ---
 

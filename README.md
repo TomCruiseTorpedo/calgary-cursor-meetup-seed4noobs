@@ -14,7 +14,7 @@ Pick one — both are free to start:
 |---|---|
 | **Cursor** | Download at [cursor.com](https://www.cursor.com) → install like any app → sign up |
 | **VS Code + Copilot** | Download [VS Code](https://code.visualstudio.com) → install the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) extension → sign in with a GitHub account |
-| **Antigravity** (Google) | Go to [antigravity.google](https://antigravity.google/) — runs in your browser, no download needed → sign in with a Google account |
+| **Antigravity** (Google) | Download at [antigravity.google](https://antigravity.google/) → install like any app → sign in with a Google account |
 
 > **At a Calgary Cursor Meetup?** You have a QR code worth $20 USD (handed out at the event or via the event page) — that's one free month of Cursor Pro. See [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md) to activate it.
 

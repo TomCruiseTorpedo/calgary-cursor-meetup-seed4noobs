@@ -24,9 +24,9 @@ You need one of these. Both are free to start.
 3. Sign in with a GitHub account when prompted (create one free at [github.com](https://github.com) if you don't have one)
 4. Copilot has a free tier — no credit card needed to start
 
-**Option C — Antigravity (Google) — no download needed**
-1. Go to [antigravity.google](https://antigravity.google/) in your browser
-2. Sign in with a Google account — no install, no setup, runs entirely in the browser
+**Option C — Antigravity (Google)**
+1. Download at [antigravity.google](https://antigravity.google/) → install like any app
+2. Sign in with a Google account
 
 ---
 

@@ -2,7 +2,7 @@
 
 This guide shows beginners how to install Python, create and activate a virtual environment, install packages, and run Python code. These steps work the same for both macOS (using Zsh) and Windows (using PowerShell).
 
-    Target Python version: Python 3.12.12
+    Target Python version: Python 3.12+
 
 ---
 
@@ -177,7 +177,7 @@ Virtual environments:
 
 ## Tip for Absolute Beginners
 
-If you want a friendly, all-in-one Python editor that includes Python and a beginner interface, you can explore Thonny (<https://thonny.org>). It’s not required for this hackathon but is a nice tool when learning Python.
+If you want a friendly, all-in-one Python editor that includes Python and a beginner interface, you can explore Thonny (<https://thonny.org>). It’s not required for this session but is a nice tool when learning Python.
 
 ---
 
