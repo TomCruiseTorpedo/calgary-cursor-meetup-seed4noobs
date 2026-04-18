@@ -114,22 +114,25 @@ To run a command:
 
 ---
 
-## macOS: Zsh + Oh My Zsh (Beginner Recommended)
+## macOS: iTerm2 + Oh My Zsh (Recommended Upgrade)
 
-macOS uses **Zsh** by default.  
-**Oh My Zsh** is a friendly framework that makes your prompt prettier and more helpful.
+The built-in Terminal app works fine, but **iTerm2** is a free drop-in replacement with tabs, split panes, better colours, and search. **Oh My Zsh** adds git branch info in your prompt, command autosuggestions, and syntax highlighting. Together they're the standard Mac dev setup.
 
-### Install Oh My Zsh (Optional)
+### Install iTerm2
 
-In your terminal:
+```bash
+brew install --cask iterm2
+```
 
-    sh -c "$(curl -fsSL <https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh>)"
+Once installed, open it from your Applications folder and use it instead of the built-in Terminal from now on. Everything else works exactly the same — same commands, same shell.
 
-This gives you:
+### Install Oh My Zsh
 
-- Helpful git info in your prompt
-- Command suggestions
-- Easier customizations
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+When it finishes, close and reopen iTerm2. Your prompt will now show the current Git branch and have colour-coded commands.
 
 ---
 

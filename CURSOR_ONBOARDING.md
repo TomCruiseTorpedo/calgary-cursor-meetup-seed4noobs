@@ -20,7 +20,7 @@ Once Cursor is installed, it will guide you through installing dev tools (Git, N
 
 ## 🤳 Path A — At a Calgary Cursor Meetup (You Have a QR Code)
 
-You were handed a card with a QR code worth $20 USD in Cursor credits — that covers one full month of Cursor Pro.
+You have a QR code worth $20 USD in Cursor credits (distributed at the event or via the event page) — that covers one full month of Cursor Pro.
 
 ### Step 1 — Scan the QR Code
 

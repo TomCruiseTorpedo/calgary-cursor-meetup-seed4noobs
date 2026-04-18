@@ -10,12 +10,14 @@ tasks:
       - setup
       - human_onboarding
 
-  - id: 02_github_auth
-    title: GitHub Authentication
-    description: Install GitHub CLI, run gh auth login, verify push works without a password prompt.
+  - id: 02_github_setup
+    title: GitHub Account, SSH Key, and CLI
+    description: Create GitHub account, generate ed25519 SSH key, add to GitHub, install gh CLI, run gh auth login.
     docs: docs/GIT_GITHUB.md
     dependencies: [01_terminal]
     success_criteria:
+      - "GitHub account created and email verified"
+      - "SSH key generated and added to github.com/settings/ssh"
       - "gh auth login completed successfully"
       - "git push works without credential prompt"
     tags:
@@ -26,7 +28,7 @@ tasks:
     title: Git & GitHub Onboarding
     description: Teach Git config, initialization, committing, and pushing to GitHub.
     docs: docs/GIT_GITHUB.md
-    dependencies: [01_terminal, 02_github_auth]
+    dependencies: [01_terminal, 02_github_setup]
     success_criteria:
       - "User has a GitHub repo with at least one commit"
       - "User can push/pull without errors"

@@ -46,6 +46,18 @@ Think of GitHub as a “cloud storage + showcase + collaboration hub” for your
 
 ## 🛠 Step-by-Step Beginner Workflow
 
+### 0) Create a GitHub Account
+
+Before anything else, you need a free GitHub account — this is where your code will live online.
+
+1. Go to [github.com](https://github.com) and click **Sign up**
+2. Enter your email, create a password, choose a username
+3. Verify your email address (GitHub sends a confirmation)
+
+> Use the same email you'll use for Git commits — it links your commits to your account.
+
+---
+
 ### 1) Install Git
 
 **Check if Git is already installed:**
@@ -125,7 +137,45 @@ Choose **GitHub.com** → **HTTPS** → follow the browser prompt. Once done, `g
 
 > If you don't have `gh` installed, see [SETUP_FROM_SCRATCH.md](SETUP_FROM_SCRATCH.md) Step 7.
 
-### 7) Link Local to Remote and Push
+### 7) Generate an SSH Key (ed25519)
+
+An SSH key is a secure identity file on your computer. GitHub uses it to recognise you without a password. It also works for connecting to servers later.
+
+**Mac:**
+```bash
+ssh-keygen -t ed25519 -C "your.email@example.com"
+```
+Press Enter to accept the default location (`~/.ssh/id_ed25519`). You can leave the passphrase blank for now.
+
+Then add it to your Mac's keychain:
+```bash
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
+
+**Windows (PowerShell as Administrator):**
+```powershell
+ssh-keygen -t ed25519 -C "your.email@example.com"
+Set-Service ssh-agent -StartupType Automatic
+Start-Service ssh-agent
+ssh-add $env:USERPROFILE\.ssh\id_ed25519
+```
+
+**Add the key to GitHub:**
+
+Copy your public key:
+```bash
+# Mac
+cat ~/.ssh/id_ed25519.pub | pbcopy
+
+# Windows
+Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard
+```
+
+Then go to [github.com/settings/ssh/new](https://github.com/settings/ssh/new), give it a name (e.g. "My MacBook"), paste the key, and click **Add SSH key**.
+
+---
+
+### 8) Link Local to Remote and Push
 
 Copy the remote link from GitHub, then:
 

@@ -444,11 +444,60 @@ Cursor is the AI-powered code editor you'll be using for this project.
 
 ---
 
-## 🐙 STEP 7: Connect to GitHub
+## 🐙 STEP 7: GitHub — Account, SSH Key, and CLI
 
-The GitHub CLI lets you authenticate and push code without setting up SSH keys or copy-pasting tokens.
+### Create a GitHub account
 
-### Install GitHub CLI
+If you don't have one yet:
+
+1. Go to [github.com](https://github.com) and click **Sign up**
+2. Enter your email, choose a password and username
+3. Verify your email — GitHub sends a confirmation link
+
+> Use the same email you used for `git config` above — it links your commits to your account.
+
+---
+
+### Generate an SSH key (ed25519)
+
+An SSH key is a secure identity file that GitHub (and servers) use to recognise your computer — no password needed each time.
+
+**macOS:**
+```bash
+ssh-keygen -t ed25519 -C "your.email@example.com"
+```
+Press Enter to accept the default file location. Leave the passphrase blank for now.
+
+```bash
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
+
+**Windows (PowerShell as Administrator):**
+```powershell
+ssh-keygen -t ed25519 -C "your.email@example.com"
+Set-Service ssh-agent -StartupType Automatic
+Start-Service ssh-agent
+ssh-add $env:USERPROFILE\.ssh\id_ed25519
+```
+
+**Add the key to GitHub:**
+
+Copy your public key to your clipboard:
+```bash
+# Mac
+cat ~/.ssh/id_ed25519.pub | pbcopy
+
+# Windows
+Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard
+```
+
+Go to [github.com/settings/ssh/new](https://github.com/settings/ssh/new), give it a name like "My MacBook", paste, and click **Add SSH key**.
+
+---
+
+### Install GitHub CLI and connect your account
+
+The GitHub CLI handles day-to-day GitHub tasks from the terminal.
 
 **macOS:**
 ```bash
@@ -460,15 +509,12 @@ brew install gh
 winget install --id GitHub.cli -e --source winget
 ```
 
-### Connect your GitHub account
-
+Then connect:
 ```
 gh auth login
 ```
 
-It will ask you a few questions — choose **GitHub.com** and **HTTPS**, then it opens your browser to log in. Once done, `git push` and `git pull` will work without any credential prompts.
-
-> **Don't have a GitHub account yet?** Create one first at [github.com](https://github.com).
+Choose **GitHub.com** → **HTTPS** → follow the browser prompt. After this, `git push` works without credential prompts.
 
 ---
 

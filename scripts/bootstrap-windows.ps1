@@ -80,6 +80,20 @@ if (-not $gitEmail) {
 }
 Success "Git identity: $gitName <$gitEmail>"
 
+# --- Step 7: SSH key (ed25519) ---
+$sshKey = "$env:USERPROFILE\.ssh\id_ed25519"
+if (-not (Test-Path $sshKey)) {
+    Info "Generating SSH key (ed25519)..."
+    New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.ssh" | Out-Null
+    ssh-keygen -t ed25519 -C $gitEmail -f $sshKey -N '""'
+
+    # Enable and start the ssh-agent service (disabled by default on Windows)
+    Set-Service ssh-agent -StartupType Automatic
+    Start-Service ssh-agent
+    ssh-add $sshKey
+}
+Success "SSH key: $sshKey"
+
 # --- Done ---
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Green
@@ -92,8 +106,12 @@ Write-Host "  npm:    $(npm --version)"
 Write-Host "  Python: $(python --version)"
 Write-Host "  gh:     $(gh --version | Select-Object -First 1)"
 Write-Host ""
-Write-Host "Next: Connect to GitHub by running:" -ForegroundColor Yellow
+Write-Host "Next steps:" -ForegroundColor Yellow
 Write-Host ""
-Write-Host "  gh auth login"
+Write-Host "  1. Add your SSH public key to GitHub:"
+Write-Host "     -> Copy it:  Get-Content $sshKey.pub | Set-Clipboard"
+Write-Host "     -> Paste at: https://github.com/settings/ssh/new"
 Write-Host ""
-Write-Host "Then open Cursor: https://www.cursor.com"
+Write-Host "  2. Connect GitHub CLI:  gh auth login"
+Write-Host ""
+Write-Host "  3. Open Cursor: https://www.cursor.com"

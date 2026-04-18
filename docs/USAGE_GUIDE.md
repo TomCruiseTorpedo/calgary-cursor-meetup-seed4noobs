@@ -14,7 +14,7 @@ You need one of these. Both are free to start.
 3. Install it like any app (open the `.dmg` on Mac, run the `.exe` on Windows)
 4. Sign up with email
 
-> **At a Calgary Cursor Meetup?** You were handed a QR code (on paper or via the event page) worth $20 in Cursor credits — one free month of Pro. Follow [CURSOR_ONBOARDING.md](../CURSOR_ONBOARDING.md) to activate it before this step.
+> **At a Calgary Cursor Meetup?** You have a QR code (from the event or event page) worth $20 in Cursor credits — one free month of Pro. Follow [CURSOR_ONBOARDING.md](../CURSOR_ONBOARDING.md) to activate it before this step.
 >
 > **Just exploring on your own?** The Cursor free tier is fine — sign up at [cursor.com](https://www.cursor.com). Or use VS Code + Copilot (see Option B below). No time pressure, go at your own pace.
 

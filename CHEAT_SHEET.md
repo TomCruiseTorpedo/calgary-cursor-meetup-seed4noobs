@@ -34,6 +34,16 @@ Compile TypeScript by running `npx tsc`.
 
 ---
 
+## 🔑 SSH Key (one-time setup)
+
+Generate: `ssh-keygen -t ed25519 -C "you@email.com"` → press Enter twice to accept defaults.
+Mac — add to keychain: `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
+Windows — add to agent: `ssh-add $env:USERPROFILE\.ssh\id_ed25519`
+Copy public key → Mac: `cat ~/.ssh/id_ed25519.pub | pbcopy` / Windows: `Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard`
+Paste at: https://github.com/settings/ssh/new
+
+---
+
 ## 📌 Git & GitHub Basics
 
 Configure Git globally with `git config --global user.name "Your Name"` and `git config --global user.email "you@example.com"`.  

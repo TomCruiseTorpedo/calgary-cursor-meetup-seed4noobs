@@ -181,4 +181,22 @@ If you want a friendly, all-in-one Python editor that includes Python and a begi
 
 ---
 
+## ⚡ Once You’re Comfortable — Look Into `uv`
+
+After you’ve worked with pip and venv for a while and feel comfortable, look into **uv** — a modern Python package manager that replaces pip, venv, and pyenv in one fast tool.
+
+```bash
+# Install
+brew install uv        # Mac
+winget install astral-sh.uv  # Windows
+
+# Use (same concepts, faster)
+uv venv                # creates a virtual environment
+uv pip install flask   # installs packages
+```
+
+It’s not needed to start — all tutorials and Stack Overflow answers use pip/venv, so stick with those while you’re learning. `uv` is the direction the Python ecosystem is heading when you’re ready to level up.
+
+---
+
 End of Python setup guide.
