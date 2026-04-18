@@ -113,7 +113,19 @@ git commit -m "first commit"
 3. Give it a name and choose *Public*
 4. Do NOT initialize with a README here if you already did locally
 
-### 6) Link Local to Remote and Push
+### 6) Authenticate with GitHub (one-time setup)
+
+GitHub removed password authentication in 2021. The easiest way to authenticate is the GitHub CLI:
+
+```bash
+gh auth login
+```
+
+Choose **GitHub.com** → **HTTPS** → follow the browser prompt. Once done, `git push` will work without ever entering a password.
+
+> If you don't have `gh` installed, see [SETUP_FROM_SCRATCH.md](SETUP_FROM_SCRATCH.md) Step 7.
+
+### 7) Link Local to Remote and Push
 
 Copy the remote link from GitHub, then:
 

@@ -139,7 +139,6 @@ This gives you:
 - Use **Zsh (+ Oh My Zsh)** on macOS.
 - Use **PowerShell (+ Windows Terminal)** on Windows.
 - Commands are mostly the same across platforms.
-- Ghostty is a nice optional terminal to explore later.
 
 ---
 

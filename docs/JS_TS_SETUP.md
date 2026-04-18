@@ -2,7 +2,7 @@
 
 This guide walks beginners through installing Node.js, using nvm, initializing a project, and configuring TypeScript. These steps are unified for both Windows (PowerShell) and macOS (Zsh).
 
-    This guide assumes Node v22.22.0 as the default version throughout.
+    This guide uses Node 22 LTS throughout.
 
 ---
 
@@ -39,7 +39,7 @@ nvm lets you install and switch between multiple versions of Node.js safely with
 
 In your Terminal (Zsh), run:
 
-`curl -o-https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash`
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash`
 
 After the installer runs, reload your shell with:
 
@@ -69,9 +69,11 @@ to verify installation.
 
 Choose a stable Node.js version (LTS), for example version 22:
 
-`nvm install 22.22.0`
+`nvm install 22`
 
-`nvm use 22.22.0`
+`nvm use 22`
+
+`nvm alias default 22`
 
 Verify Node and npm:
 

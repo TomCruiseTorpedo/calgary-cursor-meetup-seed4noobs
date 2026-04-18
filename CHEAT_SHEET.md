@@ -2,7 +2,7 @@
 
 This cheat sheet summarizes essential commands, concepts, and quick references
 for beginners setting up their environment and building simple MVPs.
-Assumes Python `3.12.12` and Node `v22.22.0`.
+Assumes Python 3.12+ and Node 22 LTS.
 
 ---
 
@@ -24,9 +24,9 @@ To deactivate the virtual environment, run `deactivate`.
 
 ---
 
-## 📦 Node (v22.22.0) & TypeScript Essentials
+## 📦 Node (v22) & TypeScript Essentials
 
-Use `nvm install 22.22.0` and `nvm use 22.22.0` to install and switch to the correct Node version.  
+Use `nvm install 22` and `nvm use 22` to install and switch to the correct Node version.  
 Check Node and npm with `node --version` and `npm --version`.  
 Initialize a project using `npm init -y`.  
 Add TypeScript with `npm install --save-dev typescript @types/node` then `npx tsc --init`.  
@@ -37,6 +37,7 @@ Compile TypeScript by running `npx tsc`.
 ## 📌 Git & GitHub Basics
 
 Configure Git globally with `git config --global user.name "Your Name"` and `git config --global user.email "you@example.com"`.  
+Connect to GitHub (one-time): `gh auth login` → choose GitHub.com → HTTPS → follow browser prompt.  
 Check status with `git status`, stage changes with `git add .`, commit with `git commit -m "message"`, and push with `git push`.  
 Clone a repo using `git clone https://github.com/username/repo.git`.  
 Create a branch with `git checkout -b feature/description`.
@@ -116,7 +117,7 @@ Ask for user readiness: “Are you ready for me to paste this into your terminal
 
 ✔ Terminal basics understood  
 ✔ Python `3.12.12` virtual environment created  
-✔ Node `v22.22.0` installed  
+✔ Node `v22` installed  
 ✔ GitHub repo initialized and pushed  
 ✔ Starter templates running locally
 

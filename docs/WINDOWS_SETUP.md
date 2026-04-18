@@ -6,12 +6,28 @@ This walks you through setting up a developer environment on Windows 11 or Windo
 
 ---
 
+## 🚀 Shortcut: Bootstrap Script
+
+Instead of following these steps manually, download and run the bootstrap script — it installs everything in the right order automatically:
+
+1. Open PowerShell **as Administrator** (right-click → "Run as administrator")
+2. Run:
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+irm https://raw.githubusercontent.com/TomCruiseTorpedo/calgary-cursor-meetup-seed4noobs/main/scripts/bootstrap-windows.ps1 | iex
+```
+
+Re-run-safe — skips anything already installed. If you'd rather follow the steps yourself, continue below.
+
+---
+
 ## 📋 What You'll Install
 
 1. Git
 2. Node.js + npm (for JavaScript projects)
 3. Python (for Python projects)
-4. Cursor (the AI coding tool)
+4. GitHub CLI (for connecting to GitHub without passwords)
+5. Cursor (the AI coding tool)
 
 **Note:** Windows Terminal (the "Container") and PowerShell (the "Brain") are already included with Windows 11 (see details below).
 
@@ -92,24 +108,27 @@ Git is how developers save and share code. You need it.
 git --version
 ```
 
-**If you see `git version 2.x.x`** → Already installed! Skip to Step 5.
+**If you see `git version 2.x.x`** → Already installed! Skip to the Configure section below.
 
-**If you see "The term 'git' is not recognized"** → Install it:
+**If you see "The term 'git' is not recognized"** → Install it.
+
+**Option A: winget (recommended — Windows 11 built-in, simplest)**
+
+```powershell
+winget install --id Git.Git -e --source winget
+```
+
+Close PowerShell, open a new one, and verify: `git --version`
+
+**Option B: Direct installer (Windows 10 fallback)**
 
 1. Go to: <https://git-scm.com/downloads/win>
-2. Click the **"Click here to download"** link — it auto-detects your Windows version
+2. Click the **"Click here to download"** link
 3. Open the downloaded `.exe` file
-4. Click through the installer:
-   - Keep all the default settings (just keep clicking **Next**)
-   - On "Choosing the default editor", you can choose Notepad if you're not sure
-   - On "Adjusting your PATH environment", keep **"Git from the command line and also from 3rd-party software"** selected
+4. Click through the installer (keep defaults, click **Next**)
 5. Click **Install**, then **Finish**
 
-**After installing:** Close PowerShell completely, open a new one, and verify:
-
-```
-git --version
-```
+Close PowerShell, open a new one, verify: `git --version`
 
 ### Configure Git with your name and email
 
@@ -221,7 +240,29 @@ winget install Python.Python.3.12
 
 ---
 
-## 🛡️ Step 7: Fix PowerShell Execution Policy (If Needed)
+## 🐙 Step 7: Install GitHub CLI + Connect to GitHub
+
+GitHub CLI lets you push code without setting up SSH keys or tokens.
+
+### Install
+
+```powershell
+winget install --id GitHub.cli -e --source winget
+```
+
+Close and reopen PowerShell, then connect your GitHub account:
+
+```powershell
+gh auth login
+```
+
+Choose **GitHub.com** → **HTTPS** → follow the browser prompt. After that, `git push` works without passwords.
+
+> **Don't have a GitHub account?** Create one first at [github.com](https://github.com).
+
+---
+
+## 🛡️ Step 8: Fix PowerShell Execution Policy (If Needed)
 
 Windows sometimes blocks running scripts for security reasons. If you ever see an error about "execution policy" or "scripts are disabled on this system", fix it:
 
@@ -237,7 +278,7 @@ This allows you to run scripts you've downloaded from the internet (required for
 
 ---
 
-## 🧑‍💻 Step 8: Install Cursor
+## 🧑‍💻 Step 9: Install Cursor
 
 Cursor is the AI-powered code editor you'll use.
 
@@ -251,24 +292,16 @@ Cursor is the AI-powered code editor you'll use.
 
 ---
 
-## ✅ Step 9: Verify Everything
+## ✅ Step 10: Verify Everything
 
 Open a fresh PowerShell window (or Windows Terminal) and run each of these:
 
 ```powershell
 git --version
-```
-
-```powershell
 node --version
-```
-
-```powershell
 npm --version
-```
-
-```powershell
 python --version
+gh --version
 ```
 
 Every command should show a version number. If any show an error, re-do that step.

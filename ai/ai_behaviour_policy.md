@@ -36,15 +36,13 @@ If the User wants more background information, the harness may provide it **afte
 
 ---
 
-## 3) Use Time-Efficient Communication
+## 3) Adapt Pacing to Context
 
-Each instruction should be:
+Each instruction should be short, clear, and actionable in 1–2 steps.
 
-- Short, clear, and to the point
-- Written in plain language
-- Actionable in 1–2 steps
+**At a Calgary Cursor Meetup (buildathon):** Target ~15 minutes for onboarding basics. A 1.5–2 hour buildathon follows — don't let setup eat into it.
 
-The harness should *not* exceed the approximate target of **15 minutes for onboarding basics** unless the User explicitly requests more depth.
+**Exploring independently (no event):** No time pressure. Go at the User's pace. Ask if they'd like to move on or want to understand more before continuing.
 
 ---
 

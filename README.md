@@ -1,156 +1,96 @@
-# Vibe Coding Onboarding Guide (Agentic-First, Beginner Friendly)
+# Vibe Coding Starter Pack — Beginner Friendly, Agentic First
 
-Welcome! This repository is designed for **absolute beginners** and for **agentic coding harnesses** (like Cursor, VS Code with Copilot, and Antigravity) to ingest *wholesale via this URL* and guide users through setting up a development environment, learning core concepts, and building a simple prototype during a 1.5 ~ 2 hour vibe coding session.
-
----
-
-## 🆕 Brand New to Coding? Never Installed Dev Tools Before? Start Here First!
-
-> **Your computer is a fresh Mac, Windows PC, or Linux machine with nothing installed?**
-> No Node, no Python, no Git, no Homebrew — literally nothing?
->
-> **→ Start with [`docs/SETUP_FROM_SCRATCH.md`](docs/SETUP_FROM_SCRATCH.md)**
->
-> It walks you through installing every single tool you need, step by step, in plain language. No experience required.
->
-> - 🍎 **Mac users:** Also see [`docs/HOMEBREW_INSTALL.md`](docs/HOMEBREW_INSTALL.md)
-> - 🪟 **Windows users:** Also see [`docs/WINDOWS_SETUP.md`](docs/WINDOWS_SETUP.md)
->
-> **Note for Mac users:** Terminal is the built-in application (the "Container") and it runs **zsh** (the "Brain") by default. Terminal provides the window, while zsh processes your commands.
->
-> **Note for Windows users:** Windows Terminal is the modern "Container" (default on Windows 11), and it runs **PowerShell** (the "Brain") by default. On Windows 10, PowerShell often runs in the older "Legacy" Console Host window.
+A starter repo for people with zero coding experience who want to get up and running with vibe coding. Built for the [Calgary Cursor Meetup](https://www.meetup.com/calgary-cursor/) — also shared with tech-curious friends who want to try vibe coding for the first time.
 
 ---
 
-## 📓 AGENTIC CODING HARNESS BEHAVIOUR POLICY
+## 👋 New here? Do these three things.
 
-1. When the harness ingests this repo, it should first read:
-   - ai/ai_behaviour_policy.md
-   - ai/ai_instructions.json
-   - ai/tasks.yaml
-   - ai/cursor_onboarding_prompts.md
+**Step 1 — Get a free AI coding tool**
 
-2. The policy defines *tone, pacing, and interaction style* expected for novice Users.
+Pick one — both are free to start:
 
-3. The harness should not proceed with setup or task execution until it has acknowledged
-   it has read and understood this policy.
+| Tool | How to get it |
+|---|---|
+| **Cursor** | Download at [cursor.com](https://www.cursor.com) → install like any app → sign up |
+| **VS Code + Copilot** | Download [VS Code](https://code.visualstudio.com) → install the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) extension → sign in with a GitHub account |
 
-4. If the User requests deeper conceptual explanations, the harness should ask:
-   "Do you want a short explanation (1–2 sentences) or an expanded explanation?"
+> **At a Calgary Cursor Meetup?** You were handed a card with a QR code worth $20 USD — that's one free month of Cursor Pro. See [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md) to activate it.
 
-5. The harness should always ask clarifying questions before offering commands.
+**Step 2 — Paste this repo URL into the chat**
 
-6. Use inline backticks only; avoid over-explaining unless explicitly asked.
+```
+https://github.com/TomCruiseTorpedo/calgary-cursor-meetup-seed4noobs
+```
 
-End of Policy Usage Notes
+**Step 3 — Send this message**
 
----
+```
+I'm brand new to coding. Please ingest this repo and walk me through
+setting up my development environment step by step. Ask me which OS
+I'm on (Mac or Windows) before starting.
+```
 
-## 🧠 What This Is
-
-This repo is both:
-
-1. **Human-friendly onboarding documentation**
-2. **Harness-friendly structured instructions** (for agentic coding harnesses to parse, interpret, and act on)
-
-The goal is to help *people with no coding experience* get up and running with:
-
-- Terminals/command line basics
-- Git & GitHub
-- Python and JavaScript/TypeScript workflows
-- Running code locally
-- Deploying a simple web app (e.g., Vercel)
+That's it. Your AI coding tool reads this repo and guides you from there — telling you exactly what to type and when.
 
 ---
 
-## ⚡ Agentic First: How This Works with Cursor
+## 📓 For the AI Coding Tool (Harness Instructions)
 
-Any agentic coding harness (Cursor, VS Code with Copilot, Antigravity, etc.) can read this repo via its URL. The structured instructions here are meant for agentic coding harnesses to:
+When this repo is ingested, the harness should read these files first, in order:
 
-- Understand your current environment
-- Lay out step-by-step setup instructions
-- Ask follow-up questions when needed
-- Provide output you can manually act upon
+1. `ai/ai_behaviour_policy.md` — tone, pacing, interaction style for novice users
+2. `ai/ai_instructions.json` — structured roadmap and success metrics
+3. `ai/tasks.yaml` — task list with dependencies
+4. `ai/cursor_onboarding_prompts.md` — prompt bank for each phase
 
-> IMPORTANT: Cursor by default runs commands in a Sandbox environment for safety and **cannot execute shell commands directly on your machine** — so the harness will guide you to run commands yourself.
-
----
-
-## 📍 How to Use This Repo
-
-1. **Open Cursor IDE** (or your chosen agentic coding harness)
-2. Paste the URL of this repo into the chat
-3. Ask it to: Ingest this repo and walk me through setting up my environment step by step.
-4. Follow the steps it outputs — *copy/paste commands into your Terminal when instructed.*
+The harness must not proceed with setup until it has confirmed the user's OS (Mac or Windows) and acknowledged the behaviour policy.
 
 ---
 
-## 🚀 Hackathon Workflow (High Level)
+## 🧠 What This Repo Contains
 
-1. **Scan the QR code** you were handed to claim Cursor credits
-2. **Create / sign into Cursor**
-3. **Activate Pro subscription**
-   - You *must* add a credit card
-   - This activates the plan so the credits can be applied
-   - *You will not be charged immediately*
-4. **Use Cursor + this repo** to prepare:
-   - Install tools
-   - Learn basics
-   - Build a mini prototype
-
----
-
-## 📌 Tips for Success
-
-### 🧩 Be Clear With Goals
-
-Tell Cursor:
-
-- What you do want to build
-- What you don’t want to build
-- How you want it to behave
-
-Example prompt:
-
-    Build a simple todo list app with a text input, add button, and list output.
-    I want it in JavaScript + HTML/CSS.
-    I want it to run locally first. 
-    I don't want to deploy to Vercel right away.
-
-### 🧠 Break It Down
-
-Divide work into:
-
-- Setup
-- UI
-- Logic
-- Testing
-- Deployment
-
-Cursor can help you define these subtasks.
+| Folder / File | What it's for |
+|---|---|
+| `docs/` | Human-friendly step-by-step guides |
+| `ai/` | Structured instructions optimized for harness ingestion |
+| `templates/` | Python (Flask) and JS/TS starter projects |
+| `configs/` | Drop-in linting and formatting configs |
+| `scripts/` | Bootstrap scripts for Mac and Windows (self-serve alternative to harness guidance) |
+| `CHEAT_SHEET.md` | One-page command reference |
+| `CURSOR_ONBOARDING.md` | Cursor account setup (meetup QR code + home free-tier paths) |
 
 ---
 
-## 💡 Token Strategy (for Agentic Coding Harnesses)
+## 🚀 Calgary Cursor Meetup Workflow
 
-Your agentic coding harness (e.g., Cursor) may let you choose between models (e.g., cheaper vs. powerful). Use:
+1. Scan the QR code on your card → claim Cursor credits
+2. Sign up / log in at [cursor.com](https://www.cursor.com) → activate Pro (no charge yet — QR covers it)
+3. Paste this repo URL into Cursor chat → send the prompt above
+4. Follow along — Cursor tells you what to paste into your terminal and when
 
-- **Cheap tokens** for routine tasks (setup, basic scaffolding, explanations)
-- **Powerful models** for complex logic or planning
+Full Cursor account setup: [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md)
 
 ---
 
-## 📘 What’s Next in This Repo
+## 💡 Tips for Success
 
-- `docs/` — Human-focused walkthroughs
-- `ai/` — Structured instructions for agentic coding harness ingestion
-- `templates/` — Python + JS starter projects
-- `configs/` — Linting & best practices configs
+**Be specific with your AI tool:**
+
+> "Build a simple todo list app — text input, add button, list output. JavaScript + HTML/CSS. Run locally first, no deployment yet."
+
+**Break it down:**
+
+> "Split this into subtasks: UI first, then the logic, then connecting them."
+
+**Ask for plain English any time:**
+
+> "Explain what that command does before I run it."
+
+**Token strategy:** Use the cheaper/faster model for setup and explanations. Switch to the more powerful model when you're stuck on logic.
 
 ---
 
 ## ❤️ Thank You
 
-This repo was built to help *complete beginners* get hands-on with vibecoding using the power of agentic engineering. If anything is unclear — ask your agentic coding harness or the Volunteers!
-
-Happy building! 🎉
+Built to help complete beginners get hands-on with vibe coding. If anything is unclear — ask your AI coding tool, or find a volunteer at the meetup.

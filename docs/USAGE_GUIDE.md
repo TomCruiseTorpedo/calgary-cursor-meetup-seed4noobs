@@ -1,105 +1,95 @@
 # How to Use This Repo (For Absolute Beginners)
 
-This guide helps you — a total beginner — understand *what* to do with this repo and *how* to follow along.
+This guide walks you through using this repo to set up your coding environment from scratch — no experience needed.
 
 ---
 
-## 🧰 Step 1 — Get Setup Basics
+## 🖥️ Step 1 — Get an AI Coding Tool
 
-### What You Will Need
+You need one of these. Both are free to start.
 
-- A **Mac or Windows laptop**
-- A Terminal or Command Line
-- A GitHub account
-- A Cursor account
+**Option A — Cursor (recommended for beginners)**
+1. Go to [cursor.com](https://www.cursor.com)
+2. Click Download — it detects Mac or Windows automatically
+3. Install it like any app (open the `.dmg` on Mac, run the `.exe` on Windows)
+4. Sign up with email
 
----
+> **At a Calgary Cursor Meetup?** You were handed a QR code (on paper or via the event page) worth $20 in Cursor credits — one free month of Pro. Follow [CURSOR_ONBOARDING.md](../CURSOR_ONBOARDING.md) to activate it before this step.
+>
+> **Just exploring on your own?** The Cursor free tier is fine — sign up at [cursor.com](https://www.cursor.com). Or use VS Code + Copilot (see Option B below). No time pressure, go at your own pace.
 
-## 🔌 Step 2 — Activate Your Cursor Credits
-
-1. Scan the CURSOR QR CODE you received
-2. Create or log into your **Cursor account**
-3. Activate the **Pro Plan**
-   - You must add a credit card
-   - You will *not* be charged immediately
-   - The credits cover the Pro plan (for 1 month)
-
----
-
-## 📥 Step 3 — Open the Cursor IDE
-
-1. Go to the Cursor app
-2. Open a new project
-3. Paste this repo’s URL into the chat
-4. Ask Cursor to ingest it
+**Option B — VS Code + GitHub Copilot**
+1. Download [VS Code](https://code.visualstudio.com) and install it
+2. Open VS Code → click the Extensions icon (left sidebar) → search **GitHub Copilot** → click Install
+3. Sign in with a GitHub account when prompted (create one free at [github.com](https://github.com) if you don't have one)
+4. Copilot has a free tier — no credit card needed to start
 
 ---
 
-## 📝 Step 4 — Follow the Setup Steps
+## 💬 Step 2 — Paste This Repo URL Into the Chat
 
-Cursor will likely ask you to:
+Open your AI coding tool. Find the chat panel (in Cursor it's on the right; in VS Code it's the Copilot Chat icon in the sidebar).
 
-- Install Git
-- Install Python
-- Install Node.js (via nvm)
-- Initialize a project locally
-- Create a GitHub repo
-- Push your work
+Paste this URL:
+```
+https://github.com/TomCruiseTorpedo/calgary-cursor-meetup-seed4noobs
+```
 
-Cursor will tell you exactly *what to paste into your Terminal* and *when*.
-
----
-
-## 🧠 Important Concepts (Explained Simply)
-
-### What Is a Terminal?
-
-It’s a window where you type instructions instead of clicking things with a mouse.
-
-### Why Git & GitHub?
-
-Git tracks changes you make in your code. GitHub stores those changes online.
-
-### What Is a Package Manager?
-
-- **npm / nvm** for JS/TS
-- **venv / pip** for Python
-
-They help you install tools your code needs.
+Then send this message:
+```
+I'm brand new to coding. Please ingest this repo and walk me through
+setting up my development environment step by step. Ask me which OS
+I'm on (Mac or Windows) before starting.
+```
 
 ---
 
-## 🙋‍♀️ Tips for Beginners
+## 📝 Step 3 — Follow Along
 
-### Don’t Rush
+Your AI coding tool will guide you through everything — one step at a time. It will:
 
-Take your time reading what Cursor outputs before copying commands.
+- Ask which OS you're on (Mac or Windows)
+- Tell you what to install and in what order
+- Give you exact commands to copy-paste into your terminal
+- Check in with you before moving on
 
-### Ask Questions
+**You don't need to know what a terminal is yet** — the AI will explain it when you get there.
 
-It’s okay to ask Cursor to explain in simpler terms.
+---
 
-Example:
+## 🧠 Key Concepts (Plain English)
 
-    Explain what this command does in plain English.
+**Terminal** — A text window where you type instructions instead of clicking. The AI will open it with you when needed.
+
+**Git & GitHub** — Git tracks changes to your code. GitHub stores it online so you have a backup and can share it.
+
+**Package manager** — A tool that installs other tools. On Mac it's Homebrew. On Windows it's built into the OS (winget).
+
+**npm / pip** — Package managers for your code's dependencies. npm is for JavaScript projects, pip is for Python.
+
+---
+
+## 🙋 Tips
+
+**Take your time.** Read what the AI says before copying commands. It's not a race.
+
+**Ask for plain English anytime:**
+> "Explain what that command does before I run it."
+
+**Stuck?** Tell the AI exactly what you see:
+> "I ran that command and got this error: [paste the error]"
+
+**Nothing happening?** Check the chat panel — the AI may be waiting for your response.
 
 ---
 
 ## 🏁 After Setup
 
-You will:
+Once your environment is ready, your AI coding tool will help you:
 
-- Run a local dev server
-- Build a simple app
+- Build a simple app (todo list, quiz, personal site — your choice)
+- Run it locally in your browser
 - Push it to GitHub
-- Optionally deploy via Vercel
+- Optionally deploy it live via Vercel
 
-Cursor will help with each step.
-
----
-
-## 📌 Final Note
-
-If at any point nothing is happening — check the Cursor chat window and respond to its questions. It will often guide the next step.
-
-Happy vibe coding! 🎨💻
+Happy vibe coding!

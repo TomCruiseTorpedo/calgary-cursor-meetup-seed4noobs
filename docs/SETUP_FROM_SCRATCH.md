@@ -1,6 +1,8 @@
 # 🚀 Setup From Scratch — Complete Beginner Guide
 
-**If you have never coded before and your computer is brand new (or freshly reset), start here.**
+> **How you'll normally use this guide:** Your AI coding tool (Cursor or VS Code with Copilot) reads this file and walks you through it interactively — telling you exactly what to run and when. You don't need to read the whole thing upfront; just follow along with the AI.
+>
+> **Self-guided?** If you prefer to go through it yourself without an AI, this guide works standalone too.
 
 This guide walks you through installing every single tool you need, step by step, in the correct order. Nothing is assumed. If you already have some tools installed, you can skip those sections.
 
@@ -9,13 +11,30 @@ This guide walks you through installing every single tool you need, step by step
 ## 📋 What You'll Be Installing (In Order)
 
 1. A modern terminal (command line app)
-2. Git (version control)
-3. Homebrew (Mac package manager) — *Mac only*
+2. Homebrew (Mac) — *Mac only, must come before everything else*
+3. Git (version control)
 4. Node.js + npm (for JavaScript/TypeScript projects)
 5. Python (for Python projects)
-6. Cursor (the AI coding tool you'll use)
+6. GitHub CLI (for connecting to GitHub)
+7. Cursor or VS Code — your AI coding tool (if not already installed)
 
 Total time estimate: **30–60 minutes** on a fresh machine.
+
+> **Why this order matters (Mac):** Homebrew is your package manager — it installs Git, Python, and other tools. But Homebrew itself needs Apple's Xcode Command Line Tools (CLT) first. Running `git --version` on a fresh Mac triggers the CLT install popup, which gets you CLT *and* git in one step. After that, Homebrew can install everything else. If you install things in the wrong order, commands like `brew install python` won't exist yet.
+>
+> **Shortcut:** Instead of following these steps manually, run the bootstrap script:
+> ```bash
+> bash <(curl -fsSL https://raw.githubusercontent.com/TomCruiseTorpedo/calgary-cursor-meetup-seed4noobs/main/scripts/bootstrap-mac.sh)
+> ```
+> It installs everything in the right order automatically. Re-run-safe — skips anything already installed.
+
+---
+
+## 🐧 On Linux?
+
+If you're running Linux, you probably don't need this guide — you already know how to use a terminal and a package manager. Install git, Node, and Python via your distro's package manager (`apt`, `dnf`, `pacman`, etc.) and you're set.
+
+---
 
 ---
 
@@ -109,11 +128,6 @@ PS C:\Users\YourName>
 
 On Windows 11, **Windows Terminal** is your "Container" and **PowerShell** is your "Brain." On Windows 10, PowerShell often runs in the older "Legacy" Console Host window.
 
-### Linux (Ubuntu/Debian)
-
-1. Press **Ctrl + Alt + T** at the same time
-   - Or search for "Terminal" in your apps menu
-
 ---
 
 ## 📦 STEP 2: Install Git
@@ -152,6 +166,17 @@ If that doesn't happen, install it manually:
 
 After installing, close your terminal, open a new one, and run `git --version` again to confirm.
 
+### Configure Git (Mac — do this right after installing)
+
+Git needs to know your name and email before you can make your first commit.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+Use the same email you'll use for your GitHub account.
+
 ---
 
 ### Install Git on Windows
@@ -170,24 +195,18 @@ git --version
 
 You should now see a version number.
 
----
-
-### Install Git on Linux (Ubuntu/Debian)
+### Configure Git (Windows — do this right after installing)
 
 ```
-sudo apt update
-sudo apt install git -y
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
 ```
 
-Verify:
-
-```
-git --version
-```
+Use the same email you'll use for your GitHub account.
 
 ---
 
-## 🍺 STEP 3: Install Homebrew (macOS Only — Skip if Windows/Linux)
+## 🍺 STEP 3: Install Homebrew (macOS Only — Skip if Windows)
 
 Homebrew is like an "app store" for developer tools on Mac. It makes installing everything else much easier.
 
@@ -287,15 +306,15 @@ export NVM_DIR="$HOME/.nvm"
 ```bash
 nvm install 22
 nvm use 22
+nvm alias default 22
 ```
+
+The last line (`nvm alias default 22`) is important — without it, Node won't be available when you open a new terminal window.
 
 Verify:
 
 ```bash
 node --version
-```
-
-```bash
 npm --version
 ```
 
@@ -335,22 +354,6 @@ nvm use 22
 ```
 
 Then verify:
-
-```
-node --version
-npm --version
-```
-
----
-
-### Install Node.js on Linux (Ubuntu/Debian)
-
-```
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-sudo apt install -y nodejs
-```
-
-Verify:
 
 ```
 node --version
@@ -421,23 +424,6 @@ python --version
 
 ---
 
-### Install Python on Linux (Ubuntu/Debian)
-
-Python 3 is usually pre-installed on Linux. Check with:
-
-```
-python3 --version
-```
-
-If it's missing:
-
-```
-sudo apt update
-sudo apt install python3 python3-pip -y
-```
-
----
-
 ## 🧑‍💻 STEP 6: Install Cursor
 
 Cursor is the AI-powered code editor you'll be using for this project.
@@ -449,7 +435,6 @@ Cursor is the AI-powered code editor you'll be using for this project.
 3. Install it like any other app:
    - **Mac**: Open the `.dmg` file, drag Cursor to your Applications folder
    - **Windows**: Run the `.exe` installer
-   - **Linux**: Follow the instructions on the download page
 
 ### First Launch
 
@@ -459,24 +444,55 @@ Cursor is the AI-powered code editor you'll be using for this project.
 
 ---
 
-## ✅ STEP 7: Verify Everything Works
+## 🐙 STEP 7: Connect to GitHub
+
+The GitHub CLI lets you authenticate and push code without setting up SSH keys or copy-pasting tokens.
+
+### Install GitHub CLI
+
+**macOS:**
+```bash
+brew install gh
+```
+
+**Windows:**
+```powershell
+winget install --id GitHub.cli -e --source winget
+```
+
+### Connect your GitHub account
+
+```
+gh auth login
+```
+
+It will ask you a few questions — choose **GitHub.com** and **HTTPS**, then it opens your browser to log in. Once done, `git push` and `git pull` will work without any credential prompts.
+
+> **Don't have a GitHub account yet?** Create one first at [github.com](https://github.com).
+
+---
+
+## ✅ STEP 8: Verify Everything Works
 
 Open a fresh terminal and run these commands one by one. Each should show a version number, not an error:
 
-```
+**macOS:**
+```bash
+brew --version
 git --version
-```
-
-```
 node --version
-```
-
-```
 npm --version
+python3 --version
+gh --version
 ```
 
-```
-python3 --version
+**Windows:**
+```powershell
+git --version
+node --version
+npm --version
+python --version
+gh --version
 ```
 
 If **any** of these give you "command not found", go back to the relevant section and re-do that install step. Common fixes:
@@ -493,6 +509,12 @@ Once all checks pass, head to:
 - **[CURSOR_ONBOARDING.md](../CURSOR_ONBOARDING.md)** — Get your Cursor credits and account set up
 - **[docs/PYTHON_SETUP.md](PYTHON_SETUP.md)** — Start a Python project
 - **[docs/JS_TS_SETUP.md](JS_TS_SETUP.md)** — Start a JavaScript/TypeScript project
+
+Or just run the bootstrap script and it handles steps 1–7 automatically:
+
+**Mac:** `bash <(curl -fsSL https://raw.githubusercontent.com/TomCruiseTorpedo/calgary-cursor-meetup-seed4noobs/main/scripts/bootstrap-mac.sh)`
+
+**Windows:** Download and run `scripts/bootstrap-windows.ps1` as Administrator.
 
 ---
 

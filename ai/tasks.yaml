@@ -10,11 +10,23 @@ tasks:
       - setup
       - human_onboarding
 
-  - id: 02_git_github
-    title: Git & GitHub Onboarding
-    description: Teach Git installation, initialization, committing, and pushing to GitHub.
+  - id: 02_github_auth
+    title: GitHub Authentication
+    description: Install GitHub CLI, run gh auth login, verify push works without a password prompt.
     docs: docs/GIT_GITHUB.md
     dependencies: [01_terminal]
+    success_criteria:
+      - "gh auth login completed successfully"
+      - "git push works without credential prompt"
+    tags:
+      - setup
+      - version_control
+
+  - id: 03_git_github
+    title: Git & GitHub Onboarding
+    description: Teach Git config, initialization, committing, and pushing to GitHub.
+    docs: docs/GIT_GITHUB.md
+    dependencies: [01_terminal, 02_github_auth]
     success_criteria:
       - "User has a GitHub repo with at least one commit"
       - "User can push/pull without errors"
@@ -22,7 +34,7 @@ tasks:
       - setup
       - version_control
 
-  - id: 03_python_setup
+  - id: 04_python_setup
     title: Python Install & venv
     description: Install Python, create and activate a virtual environment, install basic packages.
     docs: docs/PYTHON_SETUP.md
@@ -34,7 +46,7 @@ tasks:
       - setup
       - python
 
-  - id: 04_node_nvm_setup
+  - id: 05_node_nvm_setup
     title: Node & nvm Setup
     description: Install nvm, Node.js, initialize npm project.
     docs: docs/JS_TS_SETUP.md
@@ -46,29 +58,29 @@ tasks:
       - setup
       - js_ts
 
-  - id: 05_best_practices
+  - id: 06_best_practices
     title: Development Best Practices
     description: Teach naming, typing, linting, structures, and commit discipline.
     docs: docs/BEST_PRACTICES.md
-    dependencies: [02_git_github, 03_python_setup, 04_node_nvm_setup]
+    dependencies: [03_git_github, 04_python_setup, 05_node_nvm_setup]
     success_criteria:
       - "User understands and can list best practices"
     tags:
       - practices
 
-  - id: 06_build_mvp
+  - id: 07_build_mvp
     title: Build First Prototype
     description: Use NS prompts to scaffold the first usable UI component or endpoint.
-    dependencies: [05_best_practices]
+    dependencies: [06_best_practices]
     success_criteria:
       - "Project runs locally with the new feature"
     tags:
       - build
 
-  - id: 07_deploy
+  - id: 08_deploy
     title: Deployment
     description: Guide the User to deploy the app (e.g., Vercel) and verify its live status.
-    dependencies: [06_build_mvp]
+    dependencies: [07_build_mvp]
     success_criteria:
       - "Deployed URL loads successfully"
     tags:

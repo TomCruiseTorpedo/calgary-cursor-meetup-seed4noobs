@@ -47,12 +47,12 @@ Prompt:
 ### Node & nvm
 
 Prompt:
-“Now help the user install nvm and Node v22.22.0. Detect the OS automatically and provide the exact commands. Explain what each command does in plain English.”
+“Now help the user install nvm and Node v22 LTS. Detect the OS automatically and provide the exact commands. Explain what each command does in plain English.”
 
 ### Python Environment
 
 Prompt:
-“Help the user install Python 3.12.12 (Windows/macOS). Guide them to create and activate a virtual environment, then install Flask from the template. Provide copy-paste commands and confirm success.”
+“Help the user install Python 3.12+ (Windows/macOS). Guide them to create and activate a virtual environment, then install Flask from the template. Provide copy-paste commands and confirm success.”
 
 ### Git & GitHub
 

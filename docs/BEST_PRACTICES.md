@@ -127,25 +127,17 @@ In JS/TS projects:
 
 ---
 
-## 5) Use Version Control Branches
+## 5) Use Version Control Branches *(intermediate — skip if just starting)*
 
-Always create branches for features and fixes:
+Once you're comfortable with committing and pushing, branches let you work on features without touching your stable code:
 
 ```
 git checkout -b feature/user-signup
 ```
 
-Branch names should be:
+Branch names should be short, descriptive, and lowercased with hyphens — e.g. `feature/add-login`.
 
-- short
-- descriptive
-- lowercased with hyphens
-
-Example:
-
-```
-feature/add-login
-```
+For your first project, committing directly to `main` is fine. Branches become important once you're collaborating or have code you can't afford to break.
 
 ---
 

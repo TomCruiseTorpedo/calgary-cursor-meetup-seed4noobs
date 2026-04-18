@@ -36,27 +36,24 @@ then Python is already installed. If not, proceed to install it.
 
 ---
 
-## 2) Download & Install Python
+## 2) Install Python (if not already installed)
 
-Go to the official Python downloads page:
+If you came from [SETUP_FROM_SCRATCH.md](SETUP_FROM_SCRATCH.md) or ran the bootstrap script, Python is already installed — skip to Step 3.
 
-<https://www.python.org/downloads/>
+Otherwise:
 
-### Windows
+**Mac (via Homebrew):**
+```bash
+brew install python
+```
 
-1. Run the downloaded .exe installer.
-2. **Check the box “Add Python 3.x to PATH”.**
-3. Click Install Now.
-4. Wait for the install to finish and close the installer.
+**Windows (via winget):**
+```powershell
+winget install --id Python.Python.3.12 -e --source winget
+```
 
----
-
-### macOS
-
-1. Open the downloaded .pkg file.
-2. Follow the installer prompts.
-
-macOS may already include an older Python, but installing Python 3 ensures you have the right version.
+**Direct installer (either OS):** Download from [python.org/downloads](https://www.python.org/downloads/).
+On Windows, check **”Add Python 3.x to PATH”** on the first installer screen — easy to miss, breaks everything if skipped.
 
 ---
 

@@ -1,71 +1,73 @@
-# Cursor Account & Credits — Step by Step
+# Cursor Account Setup — Step by Step
 
-This is a clear guide for beginners to activate Cursor and get started.
+> **Using VS Code + Copilot instead of Cursor?** Skip this file — you don't need it. Head straight to [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md).
 
----
-
-## 🖥️ Step 0 — Set Up Your Computer First (New Users)
-
-**If you have never coded before, or this is a fresh/new computer:**
-
-Before you can use Cursor, you need a few basic tools installed. Start here:
-
-- 🚀 **[SETUP_FROM_SCRATCH.md](docs/SETUP_FROM_SCRATCH.md)** — Complete beginner guide (Mac + Windows + Linux)
-- 🍎 **Mac users:** [HOMEBREW_INSTALL.md](docs/HOMEBREW_INSTALL.md) — Install Homebrew first
-- 🪟 **Windows users:** [WINDOWS_SETUP.md](docs/WINDOWS_SETUP.md) — Windows-specific setup
-
-Once your computer is set up, come back here to activate Cursor.
+This file is for Cursor users. There are two paths — pick the one that matches your situation.
 
 ---
 
-## 🤳 Step 1 — Scan the QR Code
+## 🖥️ Step 0 — Install Cursor First (New Users)
 
-Use your phone to scan the QR code provided on paper.
+If you don't have Cursor yet:
 
-This will:
+1. Go to [cursor.com](https://www.cursor.com) and download it — auto-detects Mac or Windows
+2. Install it like any app
+3. Come back here to activate your account
 
-- Take you to the Cursor dashboard
-- Start the process to claim your credits
+Once Cursor is installed, it will guide you through installing dev tools (Git, Node, Python, etc.) — you don't need to do that manually before this step.
 
 ---
 
-## 👤 Step 2 — Create or Log Into Cursor
+## 🤳 Path A — At a Calgary Cursor Meetup (You Have a QR Code)
+
+You were handed a card with a QR code worth $20 USD in Cursor credits — that covers one full month of Cursor Pro.
+
+### Step 1 — Scan the QR Code
+
+Use your phone to scan the QR code on the card. This takes you to the Cursor dashboard to claim the credits.
+
+### Step 2 — Create or Log Into Cursor
 
 If you don’t have an account yet:
-
 1. Sign up with email
 2. Verify your email
 3. Log in
 
----
+### Step 3 — Activate Pro Plan
 
-## 💳 Step 3 — Activate Pro Plan
+- Add credit card info & subscribe to the **Pro Plan** ($20/month)
+- You *will not be charged immediately* — the QR credits cover the first month
+- After the month, you can continue or cancel — up to you
 
-Cursor requires at least a **Pro subscription** to use (via credits or otherwise):
-
-- Add credit card info & subscribe to the Pro Plan
-- You *will not be charged right away* because the QR credits cover it (for 1 month)
-- This will allow you to actively use Cursor for the meetup/hackathon
-- You are free to continue the subscription or cancel it afterwards
-
----
-
-## 🧾 Step 4 — Confirm Credits
-
-After activation:
+### Step 4 — Confirm Credits
 
 - Check your credit balance on the dashboard
-- Ensure you see the credit amount ($20)
-- Apply it towards a Pro Plan subscription
+- You should see $20 applied
+- If confused, ask a volunteer at the meetup for help
 
-If confused, ask a Cursor Volunteer for help!
+---
+
+## 🌐 Path B — No QR Code (Exploring on Your Own)
+
+No QR code needed. Cursor has a free tier that’s plenty for beginners.
+
+### Step 1 — Create a Cursor Account
+
+Go to [cursor.com](https://www.cursor.com) and click **Sign Up**. Use your email.
+
+### Step 2 — Choose Your Plan
+
+- **Free tier** — limited requests per month, good enough to start and learn
+- **Pro ($20/month)** — unlimited requests, worth it once you’re using it daily
+
+You don’t need Pro to follow this guide. Start free, upgrade if you hit limits.
+
+### Step 3 — Download and Install Cursor
+
+Download from [cursor.com](https://www.cursor.com) — it auto-detects Mac or Windows.
 
 ---
 
 ## 🚀 Ready to Go
 
-Once done:
-
-- Open Cursor IDE
-- Start with the repo
-- Follow onboarding steps
+Both paths end here. Open Cursor, then follow the steps in [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md) — paste the repo URL into the chat and send the starter prompt.

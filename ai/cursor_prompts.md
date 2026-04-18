@@ -32,7 +32,7 @@
 
 ## Node/nvm Setup
 
-> “Help me install nvm, then Node.js version 18, and verify Node/npm are installed.”
+> “Help me install nvm, then Node.js 22 LTS, and verify Node/npm are installed.”
 
 > “Initialize a new npm project and install ESLint with recommended defaults.”
 
