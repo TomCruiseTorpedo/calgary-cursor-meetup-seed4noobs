@@ -6,7 +6,7 @@ A starter repo for people with zero coding experience who want to get up and run
 
 ## 👋 New here? Do these three things.
 
-**Step 1 — Get a free AI coding tool**
+**Step 1 — Get a free agentic coding harness**
 
 Pick one — all three are free to start:
 
@@ -32,11 +32,11 @@ setting up my development environment step by step. Ask me which OS
 I'm on (Mac or Windows) before starting.
 ```
 
-That's it. Your AI coding tool reads this repo and guides you from there — telling you exactly what to type and when.
+That's it. Your agentic coding harness reads this repo and guides you from there — telling you exactly what to type and when.
 
 ---
 
-## 📓 For the AI Coding Tool (Harness Instructions)
+## 📓 For the Agentic Coding Harness (Ingestion Instructions)
 
 When this repo is ingested, the harness should read these files first, in order:
 
@@ -76,7 +76,7 @@ Full Cursor account setup: [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md)
 
 ## 💡 Tips for Success
 
-**Be specific with your AI tool:**
+**Be specific with your agentic coding harness:**
 
 > "Build a simple todo list app — text input, add button, list output. JavaScript + HTML/CSS. Run locally first, no deployment yet."
 
@@ -94,4 +94,4 @@ Full Cursor account setup: [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md)
 
 ## ❤️ Thank You
 
-Built to help complete beginners get hands-on with vibe coding. If anything is unclear — ask your AI coding tool, or find a volunteer at the meetup.
+Built to help complete beginners get hands-on with vibe coding. If anything is unclear — ask your agentic coding harness, or find a volunteer at the meetup.

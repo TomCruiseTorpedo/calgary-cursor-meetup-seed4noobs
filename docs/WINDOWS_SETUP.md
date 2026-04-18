@@ -27,7 +27,7 @@ Re-run-safe — skips anything already installed. If you'd rather follow the ste
 2. Node.js + npm (for JavaScript projects)
 3. Python (for Python projects)
 4. GitHub CLI (for connecting to GitHub without passwords)
-5. Cursor (the AI coding tool)
+5. Cursor (your agentic coding IDE)
 
 **Note:** Windows Terminal (the "Container") and PowerShell (the "Brain") are already included with Windows 11 (see details below).
 
@@ -280,7 +280,7 @@ This allows you to run scripts you've downloaded from the internet (required for
 
 ## 🧑‍💻 Step 9: Install Cursor
 
-Cursor is the AI-powered code editor you'll use.
+Cursor is an agentic coding IDE.
 
 1. Go to: <https://www.cursor.com>
 2. Click **Download** — it will detect Windows automatically

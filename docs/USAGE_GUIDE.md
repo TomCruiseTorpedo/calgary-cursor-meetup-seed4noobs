@@ -33,7 +33,7 @@ You need one of these. All three are free to start.
 
 ## 💬 Step 2 — Paste This Repo URL Into the Chat
 
-Open your AI coding tool. Find the chat panel (in Cursor it's on the right; in VS Code it's the Copilot Chat icon in the sidebar).
+Open your agentic coding harness. Find the chat panel (in Cursor it's on the right; in VS Code it's the Copilot Chat icon in the sidebar).
 
 Paste this URL:
 ```
@@ -51,7 +51,7 @@ I'm on (Mac or Windows) before starting.
 
 ## 📝 Step 3 — Follow Along
 
-Your AI coding tool will guide you through everything — one step at a time. It will:
+Your agentic coding harness will guide you through everything — one step at a time. It will:
 
 - Ask which OS you're on (Mac or Windows)
 - Tell you what to install and in what order
@@ -90,7 +90,7 @@ Your AI coding tool will guide you through everything — one step at a time. It
 
 ## 🏁 After Setup
 
-Once your environment is ready, your AI coding tool will help you:
+Once your environment is ready, your agentic coding harness will help you:
 
 - Build a simple app (todo list, quiz, personal site — your choice)
 - Run it locally in your browser

@@ -151,6 +151,6 @@ After this:
 
 1. **Install Python** and/or **Node/npm** — whichever your project needs
 2. **Git & GitHub setup** — account, SSH key, gh CLI
-3. **Paste the seed4noobs repo URL** into your AI coding tool’s chat and let it guide you from there
+3. **Paste the seed4noobs repo URL** into your agentic coding harness’s chat and let it guide you from there
 
 Stay curious! 🚀

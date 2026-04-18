@@ -1,6 +1,6 @@
 # Development Best Practices (JavaScript/TypeScript & Python)
 
-This guide introduces friendly and practical best practices for people new to coding. The goal is to help you write code that is easier to read, understand, and maintain — especially when working with an AI assistant like Cursor.
+This guide introduces friendly and practical best practices for people new to coding. The goal is to help you write code that is easier to read, understand, and maintain — especially when working with an agentic coding harness like Cursor.
 
 ---
 
@@ -208,7 +208,7 @@ This helps humans *and AI agents* understand your context quickly.
 
 ## 10) Break Down Tasks Before Asking AI
 
-When interacting with an AI assistant (like Cursor), ask it to break down complex tasks into subtasks. For example:
+When working with an agentic coding harness (like Cursor), ask it to break down complex tasks into subtasks. For example:
 
     Help me split user login flow into:
 
@@ -247,7 +247,7 @@ You can add test runners later once you’re comfortable.
 
 ## 12) Ask For Clarification From AI
 
-If you ever get a confusing instruction back from the AI agent, ask it to *explain in simple language*.
+If you ever get a confusing instruction back from your IDE, ask it to *explain in simple language*.
 
 Example:
 

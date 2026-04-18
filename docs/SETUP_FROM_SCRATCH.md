@@ -1,6 +1,6 @@
 # 🚀 Setup From Scratch — Complete Beginner Guide
 
-> **How you'll normally use this guide:** Your AI coding tool (Cursor or VS Code with Copilot) reads this file and walks you through it interactively — telling you exactly what to run and when. You don't need to read the whole thing upfront; just follow along with the AI.
+> **How you'll normally use this guide:** Your agentic coding harness (Cursor, VS Code with Copilot, or Antigravity) reads this file and walks you through it interactively — telling you exactly what to run and when. You don't need to read the whole thing upfront; just follow along with the AI.
 >
 > **Self-guided?** If you prefer to go through it yourself without an AI, this guide works standalone too.
 
@@ -16,7 +16,7 @@ This guide walks you through installing every single tool you need, step by step
 4. Node.js + npm (for JavaScript/TypeScript projects)
 5. Python (for Python projects)
 6. GitHub CLI (for connecting to GitHub)
-7. Cursor or VS Code — your AI coding tool (if not already installed)
+7. Cursor, VS Code, or Antigravity — your agentic coding IDE (if not already installed)
 
 Total time estimate: **30–60 minutes** on a fresh machine.
 
