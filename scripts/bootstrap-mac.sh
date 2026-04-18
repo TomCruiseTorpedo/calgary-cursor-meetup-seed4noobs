@@ -36,8 +36,9 @@ elif [[ -f /usr/local/bin/brew ]]; then
   eval "$(/usr/local/bin/brew shellenv)"
 fi
 
-# Write into shell profile so new terminals pick it up
-BREW_EVAL='eval "$(/opt/homebrew/bin/brew shellenv)"'
+# Write into shell profile so new terminals pick it up (handles Apple Silicon /opt/homebrew and Intel /usr/local)
+BREW_PREFIX="$(brew --prefix)"
+BREW_EVAL="eval \"\$(${BREW_PREFIX}/bin/brew shellenv)\""
 for profile in "$HOME/.zprofile" "$HOME/.bash_profile"; do
   if [[ -f "$profile" ]] && ! grep -q "brew shellenv" "$profile"; then
     echo "$BREW_EVAL" >> "$profile"

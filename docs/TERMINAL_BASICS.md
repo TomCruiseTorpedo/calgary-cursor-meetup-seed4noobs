@@ -147,9 +147,8 @@ When it finishes, close and reopen iTerm2. Your prompt will now show the current
 
 After this:
 
-1. You’ll learn **Git & GitHub basics**
-2. Then **Install Python**
-3. Then **Install Node/npm**
-4. Start using Cursor with this repo
+1. **Install Python** and/or **Node/npm** — whichever your project needs
+2. **Git & GitHub setup** — account, SSH key, gh CLI
+3. **Paste the seed4noobs repo URL** into your AI coding tool’s chat and let it guide you from there
 
 Stay curious! 🚀

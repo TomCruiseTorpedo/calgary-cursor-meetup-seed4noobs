@@ -14,13 +14,13 @@ If you don't have Cursor yet:
 2. Install it like any app
 3. Then continue reading below (Path A or B) to activate your account
 
-Once Cursor is installed, it will guide you through installing dev tools (Git, Node, Python, etc.) — you don't need to do that manually before this step.
+Once your account is set up, paste the seed4noobs repo URL into Cursor's chat — the AI will read this repo and guide you through installing dev tools step by step.
 
 ---
 
 ## 🤳 Path A — At a Calgary Cursor Meetup (You Have a QR Code)
 
-You have a QR code worth $20 USD in Cursor credits (handed out physically at the event, or claimable via the event page) — that covers one full month of Cursor Pro.
+You have a QR code worth $20 USD in Cursor credits (handed out physically at the event, or claimable via the [event page](https://cursorcalgary.com/)) — that covers one full month of Cursor Pro.
 
 > **Note for Canadian users:** Cursor charges in USD. Your card will be billed in CAD at the current exchange rate if you continue past the free month.
 

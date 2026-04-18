@@ -39,7 +39,9 @@ nvm lets you install and switch between multiple versions of Node.js safely with
 
 In your Terminal (Zsh), run:
 
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash`
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+```
 
 After the installer runs, reload your shell with:
 
@@ -53,7 +55,9 @@ After the installer runs, reload your shell with:
 
 Download and install **nvm-Windows** from:
 
-<https://github.com/coreybutler/nvm-win/releases>
+<https://github.com/coreybutler/nvm-windows/releases>
+
+Download `nvm-setup.exe` from the latest release and run it.
 
 After installing:
 

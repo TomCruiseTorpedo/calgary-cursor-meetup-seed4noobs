@@ -16,7 +16,7 @@ Pick one — all three are free to start:
 | **VS Code + Copilot** | Download [VS Code](https://code.visualstudio.com) → install the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) extension → sign in with a GitHub account |
 | **Antigravity** (Google) | Download at [antigravity.google](https://antigravity.google/) → install like any app → sign in with a Google account |
 
-> **At a Calgary Cursor Meetup?** You have a QR code worth $20 USD (handed out physically at the event, or claimable via the event page) — that's one free month of Cursor Pro. See [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md) to activate it.
+> **At a Calgary Cursor Meetup?** You have a QR code worth $20 USD (handed out physically at the event, or claimable via the [event page](https://cursorcalgary.com/)) — that's one free month of Cursor Pro. See [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md) to activate it.
 
 **Step 2 — Paste this repo URL into the chat**
 
@@ -68,7 +68,7 @@ The harness must not proceed with setup until it has confirmed the user's OS (Ma
 1. Claim your QR code credits — see [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md) for the exact steps
 2. Sign up / log in at [cursor.com](https://www.cursor.com) → activate Pro (no charge yet — QR covers it)
 3. Paste this repo URL into Cursor chat → send the prompt above
-4. Follow along — Cursor tells you what to paste into your terminal and when
+4. Follow along — the AI reads this repo and tells you what to paste into your terminal and when
 
 Full Cursor account setup: [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md)
 

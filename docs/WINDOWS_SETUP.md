@@ -358,5 +358,5 @@ git config --global credential.helper manager
 ## Next Steps
 
 - **[SETUP_FROM_SCRATCH.md](SETUP_FROM_SCRATCH.md)** — Back to the main guide
-- **[docs/PYTHON_SETUP.md](PYTHON_SETUP.md)** — Set up a Python project
-- **[docs/JS_TS_SETUP.md](JS_TS_SETUP.md)** — Set up a JavaScript/TypeScript project
+- **[PYTHON_SETUP.md](PYTHON_SETUP.md)** — Set up a Python project
+- **[JS_TS_SETUP.md](JS_TS_SETUP.md)** — Set up a JavaScript/TypeScript project

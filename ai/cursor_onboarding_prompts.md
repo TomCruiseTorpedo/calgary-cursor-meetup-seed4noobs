@@ -1,6 +1,6 @@
 # Agentic Coding Harness Onboarding Prompts (Plan Mode + Agent Mode)
 
-This prompt pack is designed for onboarding absolute beginners using an agentic coding harness (e.g., Cursor, VS Code with Copilot) in a 1.5 ~ 2 hour vibe coding session.  
+This prompt pack is designed for onboarding absolute beginners using an agentic coding harness (e.g., Cursor, VS Code with Copilot, Antigravity) in a 1.5 ~ 2 hour vibe coding session.  
 Encourage users to start in **Plan Mode** to map a roadmap, then switch to **Agent Mode** for step-by-step execution.
 
 > **Note:** "Plan Mode" and "Agent Mode" are Cursor-specific UI terms. Other agentic coding harnesses may use different names for equivalent modes — the same principles apply.

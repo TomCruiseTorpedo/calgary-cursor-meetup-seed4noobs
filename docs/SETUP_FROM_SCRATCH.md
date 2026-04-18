@@ -74,7 +74,7 @@ your-name@MacBook ~ %
 
 On macOS, **Terminal** is your "Container" and **zsh** is your "Brain." Since macOS Catalina (10.15), zsh is the default shell.
 
-#### 🎨 Optional: Enhance Your Terminal with Oh My Zsh
+#### 🎨 Optional: Enhance Your Terminal with Oh My Zsh *(skip for now — come back after setup is complete)*
 
 Once you have the basic terminal working, you can optionally enhance your zsh experience with **Oh My Zsh** - a popular framework that makes your terminal more powerful and visually appealing.
 
@@ -422,9 +422,9 @@ python --version
 
 ---
 
-## 🧑‍💻 STEP 6: Install Cursor
+## 🧑‍💻 STEP 6: Install Your AI Coding Tool
 
-Cursor is the AI-powered code editor you'll be using for this project.
+> **Using VS Code + Copilot or Antigravity instead of Cursor?** You already have your tool — skip this step and move on to Step 7.
 
 ### Download Cursor
 
@@ -437,8 +437,8 @@ Cursor is the AI-powered code editor you'll be using for this project.
 ### First Launch
 
 1. Open Cursor
-2. You'll be asked to sign in or create an account — do that
-3. When asked to "set up AI features", enter your API key or use the free tier
+2. Sign in or create an account when prompted — use your email
+3. Choose the free tier if asked about a plan
 
 ---
 
@@ -551,10 +551,10 @@ If **any** of these give you "command not found", go back to the relevant sectio
 Once all checks pass, head to:
 
 - **[CURSOR_ONBOARDING.md](../CURSOR_ONBOARDING.md)** — Get your Cursor credits and account set up
-- **[docs/PYTHON_SETUP.md](PYTHON_SETUP.md)** — Start a Python project
-- **[docs/JS_TS_SETUP.md](JS_TS_SETUP.md)** — Start a JavaScript/TypeScript project
+- **[PYTHON_SETUP.md](PYTHON_SETUP.md)** — Start a Python project
+- **[JS_TS_SETUP.md](JS_TS_SETUP.md)** — Start a JavaScript/TypeScript project
 
-Or just run the bootstrap script and it handles steps 1–7 automatically:
+Or just run the bootstrap script and it handles steps 2–8 automatically:
 
 **Mac:** `bash <(curl -fsSL https://raw.githubusercontent.com/TomCruiseTorpedo/calgary-cursor-meetup-seed4noobs/main/scripts/bootstrap-mac.sh)`
 

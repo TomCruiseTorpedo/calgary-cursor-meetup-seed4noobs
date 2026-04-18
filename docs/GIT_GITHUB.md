@@ -74,7 +74,7 @@ If not:
 
 - Windows: Install from <https://git-scm.com/download/win>
 
-(Level-up: You can also use GitHub Desktop a visual tool that simplifies these steps — see <https://desktop.github.com/>)
+(Level-up: You can also use GitHub Desktop, a visual tool that simplifies these steps — see <https://desktop.github.com/>)
 
 ### 2) Configure Git (One-Time Setup)
 

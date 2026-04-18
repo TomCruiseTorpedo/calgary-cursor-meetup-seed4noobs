@@ -63,11 +63,13 @@ Example:
 
 The harness should reference and leverage the content in this repo (in order):
 
-1. `ai/tasks.yaml` and `ai_instructions.json` — for roadmap & success criteria
-2. Human-facing guides (`docs/*.md`) — to tailor instructions
-3. Templates and config files (`templates/`, `configs/`)
-4. Cheat sheet (`CHEAT_SHEET.md`)
-5. Prompt bank (`ai/cursor_onboarding_prompts.md`)
+1. `ai/ai_behaviour_policy.md` — this file; tone, pacing, interaction style
+2. `ai/ai_instructions.json` — structured roadmap and success metrics
+3. `ai/tasks.yaml` — task list with dependencies
+4. `ai/cursor_onboarding_prompts.md` — prompt bank for each phase
+5. Human-facing guides (`docs/*.md`) — to tailor step-by-step instructions
+6. Templates and config files (`templates/`, `configs/`)
+7. Cheat sheet (`CHEAT_SHEET.md`)
 
 Only generate new content when the repo context does not cover it.
 
