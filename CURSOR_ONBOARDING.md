@@ -28,7 +28,7 @@ You have a QR code worth $20 USD in Cursor credits (handed out physically at the
 
 How you claim it depends on how you got the QR code:
 
-- **Physical card (paper QR):** Use your phone to scan the QR code — it takes you directly to the Cursor dashboard to apply the credit.
+- **Printed paper slip:** Use your phone to scan the QR code — it takes you directly to the Cursor dashboard to apply the credit.
 - **Event page (digital link):** Click the redemption link on the event page — no scanning needed. It takes you to the same Cursor dashboard.
 
 ### Step 2 — Create or Log Into Cursor

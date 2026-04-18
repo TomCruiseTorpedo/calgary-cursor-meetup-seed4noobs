@@ -27,6 +27,7 @@ You need one of these. All three are free to start.
 **Option C — Antigravity (Google)**
 1. Download at [antigravity.google](https://antigravity.google/) → install like any app
 2. Sign in with a Google account
+3. Free to use with rate limits — no credit card needed to start
 
 ---
 

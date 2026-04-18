@@ -118,11 +118,13 @@ The built-in Terminal app works fine, but **iTerm2** is a free drop-in replaceme
 
 ### Install iTerm2
 
+Download from [iterm2.com](https://iterm2.com/) — open the `.zip`, drag iTerm2 to your Applications folder, and launch it from there. Or, if you already have Homebrew installed:
+
 ```bash
 brew install --cask iterm2
 ```
 
-Once installed, open it from your Applications folder and use it instead of the built-in Terminal from now on. Everything else works exactly the same — same commands, same shell.
+Once installed, use iTerm2 instead of the built-in Terminal from now on. Everything else works exactly the same — same commands, same shell.
 
 ### Install Oh My Zsh
 
