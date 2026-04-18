@@ -60,7 +60,7 @@ Once subscribed, the $20 USD credit is applied automatically and the first month
 
 ## 🌐 Path B — No QR Code (Exploring on Your Own)
 
-No QR code needed. Cursor has a free tier that's plenty for beginners.
+No QR code needed. Cursor's free Hobby plan is plenty to get started.
 
 ### Step 1 — Create a Cursor Account
 
@@ -68,10 +68,10 @@ Go to [cursor.com](https://www.cursor.com) and click **Sign Up**. Use your email
 
 ### Step 2 — Choose Your Plan
 
-- **Free tier** — limited requests per month, good enough to start and learn
-- **Pro ($20 USD/month)** — unlimited requests, worth it once you're using it daily
+- **Hobby (Free)** — limited Agent requests and Tab completions, no credit card required — good enough to start and learn
+- **Pro ($20 USD/month)** — extended Agent limits, access to frontier models, MCPs, skills, hooks, and Cloud agents — worth it once you're using it daily
 
-You don't need Pro to follow this guide. Start free, upgrade if you hit limits.
+You don't need Pro to follow this guide. Start on Hobby, upgrade if you hit limits.
 
 > **Note for Canadian users:** Cursor charges in USD. Your card will be billed in CAD at the current exchange rate.
 
