@@ -49,7 +49,7 @@ If you're running Linux, you probably don't need this guide — you already know
 
 Follow only the section for **your** operating system.
 
-**Mac users — which chip?** These guides default to **Apple Silicon** (M1, M2, M3, M4 — any Mac from late 2020 onward). If you have an older **Intel Mac** (pre-2020), the steps are the same but Homebrew installs to a different path — watch for the "Intel Mac" notes in the Homebrew section.
+**Mac users — which chip?** These guides default to **Apple Silicon** — any Mac with an Apple-designed chip (M-series: M1 through M5; or A-series: MacBook Neo with A18 Pro). If you have an older **Intel Mac** (pre-late 2020), the steps are the same but Homebrew installs to a different path — watch for the "Intel Mac" notes in the Homebrew section.
 
 ---
 

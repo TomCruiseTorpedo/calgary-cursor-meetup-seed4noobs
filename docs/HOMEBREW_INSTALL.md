@@ -2,7 +2,7 @@
 
 **This guide is for macOS only.** If you're on Windows or Linux, skip this file.
 
-> **Default assumption: Apple Silicon (M1/M2/M3/M4).** These guides assume a Mac from late 2020 or newer. If you're on an older Intel Mac, the steps are identical but Homebrew installs to `/usr/local` instead of `/opt/homebrew` — watch for the Intel notes below.
+> **Default assumption: Apple Silicon.** These guides assume a Mac with an Apple-designed chip — M-series (M1 through M5) or A-series (MacBook Neo with A18 Pro). If you're on an older Intel Mac (pre-late 2020), the steps are identical but Homebrew installs to `/usr/local` instead of `/opt/homebrew` — watch for the Intel notes below.
 
 Homebrew is the most popular package manager for Mac. Think of it like an App Store, but for developer tools — it installs things like Python, Node.js, Git, and hundreds of other tools with a single command.
 
