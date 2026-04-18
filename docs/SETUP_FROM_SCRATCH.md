@@ -11,8 +11,8 @@ This guide walks you through installing every single tool you need, step by step
 ## 📋 What You'll Be Installing (In Order)
 
 1. A modern terminal (command line app)
-2. Homebrew (Mac) — *Mac only, must come before everything else*
-3. Git (version control)
+2. Git (version control) — *on Mac, this also installs Xcode Command Line Tools, required before Homebrew*
+3. Homebrew (Mac) — *Mac only, must come after Git/CLT*
 4. Node.js + npm (for JavaScript/TypeScript projects)
 5. Python (for Python projects)
 6. GitHub CLI (for connecting to GitHub)
