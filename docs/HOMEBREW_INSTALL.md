@@ -1,6 +1,6 @@
 # 🍺 Homebrew — Mac Package Manager Setup
 
-**This guide is for macOS only.** If you're on Windows or Linux, skip this file.
+**This guide is for macOS only.** If you're on Windows, skip this file.
 
 > **Default assumption: Apple Silicon.** These guides assume a Mac with an Apple-designed chip — M-series (M1 through M5) or A-series (MacBook Neo with A18 Pro). If you're on an older Intel Mac (pre-late 2020), the steps are identical but Homebrew installs to `/usr/local` instead of `/opt/homebrew` — watch for the Intel notes below.
 
