@@ -12,7 +12,7 @@ If you don't have Cursor yet:
 
 1. Go to [cursor.com](https://www.cursor.com) and download it — auto-detects Mac or Windows
 2. Install it like any app
-3. Come back here to activate your account
+3. Then continue reading below (Path A or B) to activate your account
 
 Once Cursor is installed, it will guide you through installing dev tools (Git, Node, Python, etc.) — you don't need to do that manually before this step.
 
