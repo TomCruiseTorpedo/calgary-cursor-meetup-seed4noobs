@@ -65,7 +65,7 @@ The harness must not proceed with setup until it has confirmed the user's OS (Ma
 
 ## 🚀 Calgary Cursor Meetup Workflow
 
-1. Scan your QR code → claim Cursor credits
+1. Claim your QR code credits — see [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md) for the exact steps
 2. Sign up / log in at [cursor.com](https://www.cursor.com) → activate Pro (no charge yet — QR covers it)
 3. Paste this repo URL into Cursor chat → send the prompt above
 4. Follow along — Cursor tells you what to paste into your terminal and when
