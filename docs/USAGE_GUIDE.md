@@ -6,7 +6,7 @@ This guide walks you through using this repo to set up your coding environment f
 
 ## 🖥️ Step 1 — Get an AI Coding Tool
 
-You need one of these. Both are free to start.
+You need one of these. All three are free to start.
 
 **Option A — Cursor (recommended for beginners)**
 1. Go to [cursor.com](https://www.cursor.com)

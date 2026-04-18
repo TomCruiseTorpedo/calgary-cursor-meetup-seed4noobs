@@ -60,7 +60,7 @@ The relationship between the Window (Terminal) and the Shell (Brain) is identica
 | **The "Container"** | Terminal.app (Modern, tabs) | Windows Terminal (Modern, tabs) | Console Host (Basic, no tabs) |
 | **The "Brain"** | Zsh | PowerShell | PowerShell or CMD |
 | **Rendering** | GPU (Fast, smooth text) | GPU (Fast, smooth text) | CPU (Slower text) |
-| **Customization** | High (Themes, Plugins) | High (JSON, Shaders) | Very limited |
+| **Customisation** | High (Themes, Plugins) | High (JSON, Shaders) | Very limited |
 
 ---
 

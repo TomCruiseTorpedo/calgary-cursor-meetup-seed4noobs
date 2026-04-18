@@ -1,4 +1,4 @@
-# Vibe Coding Hackathon — Quick Cheat Sheet
+# Vibe Coding — Quick Cheat Sheet
 
 This cheat sheet summarizes essential commands, concepts, and quick references
 for beginners setting up their environment and building simple MVPs.
@@ -116,6 +116,8 @@ Optional local server: install and run using `npx serve .`.
 ---
 
 ## 🤖 AI / Cursor Interaction Tips
+
+**Token strategy:** Start in **Plan Mode with the most capable model** — scope the work, agree on a spec or roadmap, and lock in the plan before writing any code. Switch to **Agent/Execute mode** to implement. Once the spec is well-defined, step down to a cheaper/faster model for execution.
 
 **Plan Mode prompt example**: “Plan steps to get my environment ready and an MVP built in 90 ~ 120 minutes.”  
 Ask for explanations using: “Explain this command in plain English.”  

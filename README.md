@@ -65,7 +65,7 @@ The harness must not proceed with setup until it has confirmed the user's OS (Ma
 
 ## 🚀 Calgary Cursor Meetup Workflow
 
-1. Scan the QR code on your card → claim Cursor credits
+1. Scan your QR code → claim Cursor credits
 2. Sign up / log in at [cursor.com](https://www.cursor.com) → activate Pro (no charge yet — QR covers it)
 3. Paste this repo URL into Cursor chat → send the prompt above
 4. Follow along — Cursor tells you what to paste into your terminal and when
@@ -88,7 +88,7 @@ Full Cursor account setup: [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md)
 
 > "Explain what that command does before I run it."
 
-**Token strategy:** Use the cheaper/faster model for setup and explanations. Switch to the more powerful model when you're stuck on logic.
+**Token strategy:** Start in **Plan Mode with the most capable model** — scope the work, agree on a spec or roadmap, and lock in the plan before writing a single line of code. Then switch to **Agent/Execute mode** to implement. Once the spec is well-defined, you can step down to a cheaper/faster model for execution with minimal risk of errors or misinterpretation.
 
 ---
 

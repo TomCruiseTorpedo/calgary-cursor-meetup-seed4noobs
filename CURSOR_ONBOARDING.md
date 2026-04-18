@@ -24,7 +24,7 @@ You have a QR code worth $20 USD in Cursor credits (handed out physically at the
 
 ### Step 1 — Scan the QR Code
 
-Use your phone to scan the QR code on the card. This takes you to the Cursor dashboard to claim the credits.
+Use your phone to scan the QR code. This takes you to the Cursor dashboard to claim the credits.
 
 ### Step 2 — Create or Log Into Cursor
 

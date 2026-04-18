@@ -39,7 +39,7 @@ nvm lets you install and switch between multiple versions of Node.js safely with
 
 In your Terminal (Zsh), run:
 
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash`
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash`
 
 After the installer runs, reload your shell with:
 

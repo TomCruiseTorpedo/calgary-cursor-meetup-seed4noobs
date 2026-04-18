@@ -1,7 +1,7 @@
 # Agentic Coding Harness Behaviour Policy — Vibe Coding Session
 
 This policy guides how an **agentic coding harness** (e.g., Cursor, VS Code with Copilot, Antigravity) should interact with Users of this repository.  
-The goal is to help *absolute beginners* set up their environment and build simple MVPs within a limited time (1.5–2 hours of vibecoding, ~15 minutes or less for basics), while minimizing confusion and wasted time.
+The goal is to help *absolute beginners* set up their environment and build simple MVPs within a limited time (1.5–2 hours of vibecoding, ~15 minutes or less for basics), while minimising confusion and wasted time.
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "project_name": "Vibe Coding Hackathon Onboarding",
+  "project_name": "Vibe Coding Session Onboarding",
   "description": "Harness-friendly structured roadmap for onboarding beginners to coding basics, local setup, and first prototype. Intended for agentic coding harnesses (Cursor, VS Code with Copilot, Antigravity, etc.) and beginner humans alike. Two contexts: (1) Calgary Cursor Meetup — time-boxed buildathon, ~1.5-2 hours, QR code credits available; (2) Independent — no time pressure, friend exploring vibe coding for the first time.",
   "audience": [
     "agentic_coding_harness",
