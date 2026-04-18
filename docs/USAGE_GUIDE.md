@@ -16,13 +16,17 @@ You need one of these. Both are free to start.
 
 > **At a Calgary Cursor Meetup?** You have a QR code (from the event or event page) worth $20 in Cursor credits — one free month of Pro. Follow [CURSOR_ONBOARDING.md](../CURSOR_ONBOARDING.md) to activate it before this step.
 >
-> **Just exploring on your own?** The Cursor free tier is fine — sign up at [cursor.com](https://www.cursor.com). Or use VS Code + Copilot (see Option B below). No time pressure, go at your own pace.
+> **Just exploring on your own?** The Cursor free tier is fine — sign up at [cursor.com](https://www.cursor.com). No time pressure, go at your own pace.
 
 **Option B — VS Code + GitHub Copilot**
 1. Download [VS Code](https://code.visualstudio.com) and install it
 2. Open VS Code → click the Extensions icon (left sidebar) → search **GitHub Copilot** → click Install
 3. Sign in with a GitHub account when prompted (create one free at [github.com](https://github.com) if you don't have one)
 4. Copilot has a free tier — no credit card needed to start
+
+**Option C — Antigravity (Google) — no download needed**
+1. Go to [antigravity.google](https://antigravity.google/) in your browser
+2. Sign in with a Google account — no install, no setup, runs entirely in the browser
 
 ---
 

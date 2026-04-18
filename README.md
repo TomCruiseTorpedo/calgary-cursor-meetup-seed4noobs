@@ -1,6 +1,6 @@
 # Vibe Coding Starter Pack — Beginner Friendly, Agentic First
 
-A starter repo for people with zero coding experience who want to get up and running with vibe coding. Built for the [Calgary Cursor Meetup](https://www.meetup.com/calgary-cursor/) — also shared with tech-curious friends who want to try vibe coding for the first time.
+A starter repo for people with zero coding experience who want to get up and running with vibe coding. Built for the Calgary Cursor Meetup — also shared with tech-curious friends who want to try vibe coding for the first time.
 
 ---
 
@@ -14,6 +14,7 @@ Pick one — both are free to start:
 |---|---|
 | **Cursor** | Download at [cursor.com](https://www.cursor.com) → install like any app → sign up |
 | **VS Code + Copilot** | Download [VS Code](https://code.visualstudio.com) → install the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) extension → sign in with a GitHub account |
+| **Antigravity** (Google) | Go to [antigravity.google](https://antigravity.google/) — runs in your browser, no download needed → sign in with a Google account |
 
 > **At a Calgary Cursor Meetup?** You have a QR code worth $20 USD (handed out at the event or via the event page) — that's one free month of Cursor Pro. See [CURSOR_ONBOARDING.md](CURSOR_ONBOARDING.md) to activate it.
 

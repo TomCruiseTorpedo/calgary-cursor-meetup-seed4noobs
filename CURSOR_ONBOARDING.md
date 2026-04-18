@@ -33,17 +33,23 @@ If you don’t have an account yet:
 2. Verify your email
 3. Log in
 
-### Step 3 — Activate Pro Plan
+### Step 3 — Add a Credit Card and Activate Pro
 
-- Add credit card info & subscribe to the **Pro Plan** ($20/month)
-- You *will not be charged immediately* — the QR credits cover the first month
-- After the month, you can continue or cancel — up to you
+> ⚠️ **You must add a credit card even though you have credits.** This is a Cursor requirement to activate the Pro plan — there is no way around it. Your card will **not** be charged for the first month; the $20 QR credit covers it.
+
+1. Go to your Cursor account settings → Billing
+2. Add a credit card as a payment method
+3. Subscribe to the **Pro Plan** ($20/month)
+
+Once subscribed, the $20 credit is applied automatically and the first month is free.
+
+> ⚠️ **Set a reminder to cancel before the month is up** if you don't want to continue. After the credit is used, the card on file will be charged at renewal. You can cancel any time from Billing settings.
 
 ### Step 4 — Confirm Credits
 
-- Check your credit balance on the dashboard
-- You should see $20 applied
-- If confused, ask a volunteer at the meetup for help
+- Go to Billing in your account settings
+- You should see the $20 credit applied and a $0 charge for the current month
+- If the credit isn't showing or you're unsure, ask a volunteer at the event for help — this step trips people up
 
 ---
 
