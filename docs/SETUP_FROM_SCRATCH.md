@@ -49,6 +49,8 @@ If you're running Linux, you probably don't need this guide — you already know
 
 Follow only the section for **your** operating system.
 
+**Mac users — which chip?** These guides default to **Apple Silicon** (M1, M2, M3, M4 — any Mac from late 2020 onward). If you have an older **Intel Mac** (pre-2020), the steps are the same but Homebrew installs to a different path — watch for the "Intel Mac" notes in the Homebrew section.
+
 ---
 
 ## 🖥️ STEP 1: Open Your Terminal
@@ -245,6 +247,8 @@ If you see that, copy and run those commands exactly as shown. They look somethi
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/YOURNAME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
+> **Intel Mac?** Your commands will show `/usr/local/bin/brew` instead of `/opt/homebrew/bin/brew` — that's correct. Just run whatever Homebrew printed, don't change it.
 
 Verify Homebrew works:
 

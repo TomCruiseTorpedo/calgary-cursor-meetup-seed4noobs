@@ -2,6 +2,8 @@
 
 **This guide is for macOS only.** If you're on Windows or Linux, skip this file.
 
+> **Default assumption: Apple Silicon (M1/M2/M3/M4).** These guides assume a Mac from late 2020 or newer. If you're on an older Intel Mac, the steps are identical but Homebrew installs to `/usr/local` instead of `/opt/homebrew` — watch for the Intel notes below.
+
 Homebrew is the most popular package manager for Mac. Think of it like an App Store, but for developer tools — it installs things like Python, Node.js, Git, and hundreds of other tools with a single command.
 
 ---
@@ -69,6 +71,8 @@ It will usually show you **two commands** to run. They look something like this 
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/YOURNAME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
+> **Intel Mac?** Your output will show `/usr/local/bin/brew` instead of `/opt/homebrew/bin/brew` — that's correct for your machine. Just copy and run whatever Homebrew printed, don't change it.
 
 **You MUST run these two commands**, otherwise Homebrew won't work in new terminal windows.
 
@@ -157,6 +161,7 @@ If it still doesn't work, run:
 ```
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+> **Intel Mac?** Use `eval "$(/usr/local/bin/brew shellenv)"` instead.
 
 Then try your command again.
 
